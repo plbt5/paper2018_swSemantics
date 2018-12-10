@@ -1,7 +1,7 @@
 Purpose of this section: 
 \begin{itemize}
-\item Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see [@Brandt:2013jh])
-\item Define loosely coupled semantics as a result of applying the 2 principles 'semantic separation of concerns' and 'semantic transparency' (see [@Brandt:2013jh])
+\item Show the semantic architecture as an additional layer that is orthogonal to current layers, expressing a separation of concerns between syntax and semantics (see \cite{Brandt:2013jh})
+\item Define loosely coupled semantics as a result of applying the 2 principles 'semantic separation of concerns' and 'semantic transparency' (see \cite{Brandt:2013jh})
 \item Better structure informal text below, towards more Principle definitions.
 \end{itemize}
 \end{synopsis}
