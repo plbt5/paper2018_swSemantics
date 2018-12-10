@@ -1,4 +1,3 @@
-
 Elaborate on the relationship between architectural levels (classification, instantiation, generalisation, conformance, type-of), and specify what relations are required and appropriate and what not.
 
 Conclusions:
