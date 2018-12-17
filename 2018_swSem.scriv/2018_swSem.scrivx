@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="PC-17875" Modified="2018-12-12 18:12:38 +0100" ModID="FC0E06AF-D0A7-4477-8D44-581FE9A1C8F0">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="PC-17875" Modified="2018-12-13 09:23:54 +0100" ModID="F0DBA036-CDCF-4061-90F2-E56F4BAAF846">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 12:05:49 +0100" Modified="2017-04-10 12:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -53,7 +53,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>336,0</TextSelection>
+                        <TextSelection>440,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <References>
@@ -85,7 +85,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1517,0</TextSelection>
+                        <TextSelection Caret="2492">1882,610</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -204,14 +204,14 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 12:23:05 +0100" Modified="2018-12-12 18:12:36 +0100" Type="Text">
+                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 12:23:05 +0100" Modified="2018-12-13 09:23:52 +0100" Type="Text">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection Caret="2295">2234,61</TextSelection>
+                        <TextSelection>1786,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -245,7 +245,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>4353,0</TextSelection>
+                                <TextSelection Caret="497">342,155</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -707,7 +707,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="73" Characters="828" Date="2018-11-12 15:16:16 +0100"/>
+        <PreviousSession Words="261" Characters="2744" Date="2018-11-12 15:16:16 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -715,7 +715,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">domain</SearchSettings>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">quine</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
