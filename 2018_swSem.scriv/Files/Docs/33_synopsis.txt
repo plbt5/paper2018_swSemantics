@@ -1,3 +1,9 @@
-Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP. ***Preferrably written by Eric.***
+Consolidate the ideas on the bridgehead, spanning, roadway and principles into an additional ISO42010 Architectural Viewpoint (sIOP) that summarises all previous Sections as concerns on semantics and sIOP.
+
+I presume we will introduce a Semantic Viewpoint with its Semantic View. Currently, an Information Viewpoint and View exists; how do we relate to that? Do we extend it into the Semantic versions of it, or, do we provide a formal Correspondence with it? Tha latter has the opportunity to be backwards compatible, and inhere on its integration with the rest of the views/models; the former might better reflect a single concern as opposed to splitting the concern in two (semantic vs information).
+
+View Correspondences and Viewpont Correspondence Rules can be used to implement the aspects addressed in Section Architectural Consistency.
+
+***Preferrably written by Eric.***
 
 \end{synopsis}
