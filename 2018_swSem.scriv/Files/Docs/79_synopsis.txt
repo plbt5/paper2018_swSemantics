@@ -1,0 +1,17 @@
+Reciprociteit tussen data en process heeft consequenties. We doen de aanname dat er drie elementen zijn die de correctheid van de reciprociteit beïnvloeden:
+
+* Het beschrijvende model (ontologie) van de data;
+* De context waar het proces rekening mee houdt, dwz, de aspecten die worden gecontroleerd of waarbinnen kan worden gevarieerd, bijv. verschillende eenheden waarin waarden kunnen worden uitgedrukt;
+* De context die het proces als aanname doet en waar het proces niet op controleert.
+
+Semantische conflicten ontstaan als gevolg van het laatste element, wanneer de aannames die het proces impliciet als randvoorwaarden toepast, niet overeenkomen met de werkelijke situatie. Om dit te voorkomen volstaat het niet dat elementen 1 en 2 de beschikking hebben over een abstractie van de werkelijkheid; integendeel, elementen 1 en 2 moeten dan de werkelijkheid tot in het oneindige beschrijven. Dit is onmogelijk. Element 3 zal dus altijd bestaan, en het is het doel van de engineer om de invloed van dit element te minimaliseren door de gemaakte abstracties exact te laten passen op de binnen het toepassingsdomein noodzakelijk geachte informatie. Andersom gesteld: de validiteit van de reciprociteit is beperkt tot de scope van de abstracties van de modellen.
+
+Hanteren we deze principiele beperking, dan nog is de validiteit van de reciprociteit afhankelijk van de mate van overeenkomst tussen elementen 1 en 2:
+
+* Als in de ontologie van de data aspecten zijn benoemd die niet worden benut (of herkend) door het proces die die data verwerkt, dan zal de dataverwerking minder onderscheid kunnen maken in de opgetreden state of affairs dan door de data wordt aangedragen. Er is dan sprake van surjectieve afbeelding tussen werkelijkheid en de uitkomst van de dataverwerking. 
+* Als het proces meer mogelijkheden tot onderscheid heeft geimplementeerd dan de ontologie van de data kan aanbieden, dan zullen bepaalde uitkomsten van de dataverwerking niet mogelijk zijn. Er is dan sprake van een injectieve afbeelding tussen werkelijkheid en de procesresultaten. 
+* Als de ontologie aspecten benoemd die niet worden benut (of herkend) door de dataverwerking, en de dataverwerking onderscheid heeft gemaakt op aspecten die door de ontologie niet zijn onderkend, dan is de afbeelding tussen de werkelijkheid en de procesresultaten injecief noch surjectief. Er is geen one-to-many afbeelding (dus het is een functie), maar er zijn verschillende data elementen die eenzelfde reultaat tot gevolg hebben, èn er zijn potentiele resultaten die nooit op basis van het datamodel kunnen worden geconcludeerd.  
+
+De validiteit van de reciprociteit is optimaal als geen van bovenstaande drie situaties voorkomen, dus als er sprake is van een bijectie: elk onderscheid dat beschreven kan worden door de ontologie leidt tot een ander procesresultaat, zonder dat er potentiele procesresultaten bestaan die nooit kunnen worden geconcludeerd.
+
+\end{synopsis}
