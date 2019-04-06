@@ -1,31 +1,16 @@
 {\rtf1\ansi\ansicpg1252\uc1\deff0
-{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}}
 {\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
 \paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
 \pgnrestart\pgnstarts0
-\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 The relationships that we are interested in that relate the ASM, a backward-looking model, with the forward-looking models, are *modelling* relations, and particularly the ones that we discern as follows:}
+\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 The relationships that we are interested in that relate the ASM, and particularly the conceptual model, with the forward-looking models, are the *modelling* relations as described in \\cref\{sgns-relations-and-formal-semantics\}. In order to decide what type of relationship to apply, we consider the primary purpose of the models. The conceptual model is solely focused on supporting the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s }{\f1\fs24\b0\i1 functionality}{\f0\fs24\b0\i0 , whereas the forward-looking (system) models are supporting its *extra-functional demands* as well. Furthermore, we consider data to represent the state of affairs in reality, viz. (about) the instances/objects that are considered by the agent by Level C above.  }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 This implies that relationships between the conceptual model and the other models exist either between functional/functional demands, or between functional/extra-functional demands. The main demand that we ut on these relations is that the forward-looking (system) models do not ever introduce new semantics. This implies that when class elements in the system models somehow refer to or use semantic concepts, a *use* relationship is to achieve the semantic grounding of that particular element. Regarding relationship elements that are applied within forward-looking models, whenever these reflect ontological relations as opposed to modelling relations, these should be grounded in the conceptual model as well.}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-17053\ql\ltrch\loch {\f0\fs24\b0\i0 The above has been summarised into \\cref\{fig:RelsASMwSM\}. }
 \par\pard\plain \ltrch\loch \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0
-\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 In order to decide what type of relationship to apply, we consider the primary purpose of the models. The conceptual model is solely focused on supporting the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s functionality, whereas the forward-looking (system) models are supporting its extra-functional demands as well. Furthermore, we consider data to represent the state of affairs in reality, viz. (about) the instances that are considered by the agent.  }
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 This implies that the relationships between the conceptual model and the other models exist either between functional/functional demands, or between functional/extra-functional demands. Furthermore, we demand that the forward-looking models shall maintain the coherence in the ASM as established by the conceptual model, and hence, do not alter the reciprocity of the models in the ASM. We contrast these requirements with the characteristics of the relation types, the results of which are summarised in \\cref\{tab:demands-vs-types\}.}
+\par\pard\plain \ri-17053\ql\ltrch\loch {\f0\fs24\b0\i0 \\missingfigure[figwidth=6cm]\{The artifacts and relations between them that apply between the Atomic Semantic Monolith and the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s system models\}}
 \par\pard\plain \ltrch\loch \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0
-\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 -------------------------------------------------------------------------------------------------------------------------------------------------}
-\par\plain {\f0\fs24\b0\i0 Demands                     Classification           Instantiation           Generalisation           Conformance           Type-of}
-\par\plain {\f0\fs24\b0\i0 --------------------------- ------------------------ ----------------------- ------------------------ --------------------- ---------------------}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 Functional-Functional }
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Functional/Extra-Functional}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Maintain coherence}
-\par\plain \f0\fs24\b0\i0
-\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 -------------------------------------------------------------------------------------------------------------------------------------------------}
-\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
-\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 Table: Demands for the relationship between the conceptual model and forward-looking models versus the type of relationship. \\label\{tab:demands-vs-types\}}
-\par\plain \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 <Apart from this, it is noteworthy to consider relationship types that are applied within forward-looking models. As a general rule of thumb, those relationship types should be grounded in the conceptual model as well, in order to guarantee the coherence and reciprocity. Such relationship types are defined as pairs of individuals (R)> }
-\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-17053\ql\ltrch\loch \f0\fs24\b0\i0
 \par\pard\plain \ltrch\loch {\f0\fs24\b0\i0\cf1 <!-- page additions -->}
-\par\pard\plain \ri-10760\ltrch\loch {\f0\fs24\b0\i0\cf1 [def:linkedtriangles]: src\\images\\LinkedTriangles.png \{#fig:linked-triangles width=600px height=230px\}}}
+\par\pard\plain \ri-17053\ql\ltrch\loch {\f0\fs24\b0\i0 [def:relsASMwSM]: src\\images\\RelationsASMwithSystemModels.png \{#fig:RelsASMwSM  width=80%\}}}
