@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="PC-17875" Modified="2019-04-06 20:21:51 +0200" ModID="C8371593-BFBA-4697-A2D2-401F1301155D">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="PC-17875" Modified="2019-04-12 11:58:00 +0200" ModID="E4EE1885-5906-4ED1-8122-72388DD17056">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0200" Modified="2017-04-10 13:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -181,7 +181,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 12:11:59 +0200" Modified="2019-02-18 11:05:14 +0200" Type="Text">
+                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 12:11:59 +0200" Modified="2019-04-12 11:57:58 +0200" Type="Text">
                     <Title>meta-data</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -200,7 +200,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection Caret="3351">0,3351</TextSelection>
+                        <TextSelection>1593,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -341,7 +341,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>3435,0</TextSelection>
+                                <TextSelection>2589,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -764,7 +764,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="899" Characters="4733" Date="2019-04-02 11:44:40 +0200"/>
+        <PreviousSession Words="910" Characters="4824" Date="2019-04-02 11:44:40 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
