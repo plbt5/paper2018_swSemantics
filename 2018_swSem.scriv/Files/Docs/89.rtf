@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 Characterising an ontology requires to specify its formal ontology language $L_\{\\ont\{O\}\}$, its formal grammar $G_\\ont\{O\}$ and its interpretation function $\\intn(\\cdot)$ between well-formed theories and a domain of interpretation (DoI). The definitions on the ontology language and the interpretation function below is slightly adapted from [@Euzenat:2013ie], whereas we skip a definition on the grammar and refer to the web ontology language OWL2, [@Motik2012 section 13 Appendix: Complete Grammar (Normative)]) instead.    }
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Ontology language]\\label\{def:ontology-language\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 An ontology language, denoted $L_\{\\ont\{O\}\}$, is a formal language characterised by an alphabet $\\Sigma = \\tuple\{\\Sigma_s, \\Sigma_p, \\Sigma_\{ce\} \\cup \\Sigma_\{ca\} \}$ that consists of atomic symbols $\\Sigma_s$, atomic predicates $\\Sigma_p$, and constants $\\Sigma_\{ce\} \\cup \\Sigma_\{ca\}$, with:}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\begin\{align*\}}
+\par\plain {\f0\fs24\b0\i0   \\Sigma_s \\; &\\subseteq \\; I \\cup V \\cup \\set\{\\emptyset\} \\\\}
+\par\plain {\f0\fs24\b0\i0   \\Sigma_p \\; &\\subseteq \\; C \\cup R \\cup P \\cup T \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0   \\Sigma_\{ca\} \\; &= \\; \\\{ \\sqsubset, \\sqsupset, \\equiv, \\bot, \\ndisjoint, \\sqin, \\sqni \\\} \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0   \\Sigma_\{ce\} \\; &= \\; \\\{ \\neg, \\land, \\lor, \\to, \\leftrightarrow , (, )\\\}}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{align*\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 where }
+\par\plain {\f0\fs24\b0\i0 \\begin\{itemize\}[leftmargin=2cm,label=\{\}]}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$I$:]\{denotes the set of individuals that refer to things, and, hence, represent instances of classes $C$; \}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$V$:]\{denotes the set of individuals that refer to data values, and, hence, represent instances of datatypes $T$;\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$C$:]\{denotes the set of classes. These are the main citizens in the ontology;\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$R$:]\{denotes the set of relations. These connect pairs of individuals from $I$, i.e., instances of two different or one single class from $C$;\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$P$:]\{denotes the set of properties. These connect individuals from $I$ to individuals from $V$, i.e., values as instances of data types $T$;\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$T$:]\{denotes the set of data types. Each data type refers to a set of data values that share a particular type. Such type can be a primitive data type, e.g., integers, or a user-defined construct that might apply constraints, e.g., a person name of which each value distinguishes between initials, family name, first name, and optionally several other middle names. Every datatype refers to a particular set of values in reality, denoted as the \\emph\{value space\};\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$\\sqsubset, \\sqsupset$:]\{denote the \\emph\{specialization\} resp. \\emph\{generalization\} relations on $(C \\times C) \\cup (R \\times R) \\cup (P \\times P) \\cup (T \\times T)$;\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$\\bot, \\ndisjoint$:]\{denotes the \\emph\{exclusion\} resp. \\emph\{overlap\} relations on $(C \\times C) \\cup (R \\times R) \\cup (P \\times P) \\cup (T \\times T)$. This represents the fact that classes (or relations, or properties, or data types) can either be completely independent from each other or share a certain mutual characteristic, respectivey;\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$\\sqin, \\sqni$:]\{denotes the \\emph\{instantiation\} resp. \\emph\{containment\} relations on $(I \\times C) \\cup (V \\times T)$, resp. $(C \\times I) \\cup (T \\times V)$. This essentially formalises that (i) an individual $\\iota$ belongs to, or more precisely, instantiates, a particular class $c \\in C$, and, similarly, (ii) a value $v$ instantiates (or, is of) a specific type $t \\in T$;\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$\\equiv$:]\{denotes the \\emph\{assignment\} relation on $(I \\times R \\times I) \\cup (I \\times P \\times V)$. This implies that individuals can be assigned to an individual (the instantiated version of how a relation $r \\in R$ connects classes $c_1, c_2 \\in C$), or, that individuals can carry an actual value (the instantiated version of how properties $p \\in P$ connect a class $c \\in C$ to a data type $t \\in T$). \}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item[$\\Sigma_\{ce\}$:]\{represents the set of connectives to formulate \\emph\{concept expressions\}, i.e., logical operators that are applied to construct combinations of concepts.\} }
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{itemize\}}
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 The interpretation function for the ontology language $L_\\ont\{O\}$ maps all elements in its alphabet onto the DoI, as follows: }
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Interpretation function for $L_\\ont\{O\}$]\\label\{def:interpretation-function-for-L_O\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 Consider the ontology language $L_\\ont\{O\}$ from \\cref\{def:ontology-language\}, and its domain of interpretation $\\EuScript\{D\}$ as the disjoint union of the data value domain, i.e., magnitudes of some sort, and the domain of individuals, $\\EuScript\{D\} = \\EuScript\{V\} \\cup \\EuScript\{I\}$, then the interpretation function $\\intn(\\cdot)$ is a mapping:}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 \\[L_\\ont\{O\} \\to \\EuScript\{V\} \\cup \\EuScript\{I\}\\]}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 where:}
+\par\plain {\f0\fs24\b0\i0 \\begin\{itemize\}[label=\{--\}]}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item $\\Sigma_s \\to \\EuScript\{V\} \\cup \\EuScript\{I\}$:}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0    \\begin\{alignat*\}\{3\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\forall \\iota &\\in I \\; &&: \\; &\\intn(\\iota) &\\in \\EuScript\{I\} \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\forall v &\\in V \\;     &&: \\; &\\intn(v) &\\in \\EuScript\{V\} \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\text\{the empty theory\} & &&: \\; &\\intn(\\emptyset) &= \\set\{\\emptyset\}}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0    \\end\{alignat*\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item $\\Sigma_p \\to \\EuScript\{V\} \\cup \\EuScript\{I\}$:}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0    \\begin\{alignat*\}\{3\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\forall c &\\in C \\;     &&: \\; &\\intn(c) &\\subseteq \\EuScript\{I\} \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\forall r &\\in R \\;     &&: \\; &\\intn(r) &\\subseteq \\EuScript\{I\} \\times \\EuScript\{I\} \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\forall p &\\in P \\;     &&: \\; &\\intn(p) &\\subseteq \\EuScript\{I\} \\times \\EuScript\{V\} \\\\}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0     \\forall t &\\in T \\;     &&: \\; &\\intn(t) &\\subseteq \\EuScript\{V\} }
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0    \\end\{alignat*\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item $\\Sigma_\{ca\} \\to \\set\{\\texttt\{T,F\}\}$: We will not repeat \\cite\{Euzenat:2013ie\}, Definition 2.4, which formulates the valuation of the connectors $\\Sigma_\{ca\}$ in the alphabet.}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0   \\item $\\Sigma_\{ce\} \\to \\set\{\\texttt\{T,F\}\}$: These connectors are interpreted by truth-functions that map combinations of truth values to one truth value, depending on the operator, e.g., $f_\\land (\\texttt\{T,F\}) = \\texttt\{F\}$ (\\cite\{Gamut1991\}, section 2.6).}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 \\end\{itemize\}}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\pard\plain \tx720\ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 The abstract syntax emerges as $S_\\ont\{O\} = \\tuple\{L_\\ont\{O\}, G_\\ont\{O\}\}$. We can now formalise an ontology, as follows.}
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\begin\{mmdef\}[Ontology]\\label\{def:ontology\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 An ontology $\\ont\{O\}$ is a structure $\\tuple\{S_\{\\ont\{O\}\}, M\}$, where:}
+\par\plain {\f0\fs24\b0\i0 \\begin\{itemize\}[leftmargin=2cm,label=\{\}]}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0  \\item[$S_\\ont\{O\} =$]\{$\\tuple\{L_\{\\ont\{O\}\}, G_\{\\ont\{O\}\}\}$, denoting the abstract syntax that produces the set of theories $\\phi$ from ontology language $L_\{\\ont\{O\}\}$ (\\cref\{def:ontology-language\}) by grammar $G_\{\\ont\{O\}\}$;\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0  \\item[$M =$]\{$\\tuple\{C, \\intn(\\cdot)\}$, denoting the intended models for $S_\\ont\{O\}$\}}
+\par\pard\plain \tx1899\ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0  \\item[$C =$]\{$\\tuple\{\\EuScript\{D\}, \\EuScript\{R\}\}$, denoting the conceptualisation as a particular structure of the DoI, and\}}
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0  \\item[$\\intn(\\cdot) =$]\{denoting the semantics of an ontology as formulated in \\cref\{def:interpretation-function-for-L_O\}\}}
+\par\pard\plain \tx1899\ql\ltrch\loch {\f0\fs24\b0\i0 \\end\{itemize\}}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\plain \f0\fs24\b0\i0}

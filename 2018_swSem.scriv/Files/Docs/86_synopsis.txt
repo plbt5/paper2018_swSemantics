@@ -1,0 +1,3 @@
+
+Stereotype: A new type of modeling element that extends the semantics of themetamodel. Stereotypes must be based on certain existing types or classesin the metamodel. Stereotypes may extend the semantics, but not thestructure of pre-existing types and classes. (Meta Object Facility (MOF) Core Specification 1.4)
+\end{synopsis}

@@ -1,0 +1,10 @@
+*************
+Gebruik Fig. 6.7 uit \cite{Henderson-Sellers2012}:
+* Use = valid models
+* Rules = grammar/metamodel van EMOF/CMOF
+* definition = syntax (symbols + rules) + semantics
+* semantics = tekstuele beschrijving van de betekenis van de symblen, i.e., de clauses uit UML; Lees ook de MOF2 clause 15 abstract semantics 
+om het metamodel te ondersceiden van de language en de criteria die vaststellen of een sentence/model valide is  
+*************
+
+\end{synopsis}

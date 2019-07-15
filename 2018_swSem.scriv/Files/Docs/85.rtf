@@ -1,0 +1,58 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq1 Courier New,courier;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ltrch\loch {\f0\fs24\b0\i0 Contemporary software architectures apply many models that collectively represent the software agent. We concluded that the conceptual model is a backward-looking (descriptive) model. However, many if not all of the other models that are applied are forward-looking (system) models, prescribing the structure and behaviour of the software agent as such. Indeed, by definition of being forward-looking, the models can and will be verified towards their meta-model. Such verification, however, is only in respect to their syntactical formulation, whereas their meaning should be sought in their relation with the conceptual model. Thus, supporting a semantic verification of the system models demands a clear formal characterisation of the relations with their conceptual model. Furthermore, a similar support of the verification of the coherence within the conceptual model demands a similar formal characterisation of the relations between the semantic model and the pragmatic model and their foundational ontology. These formal characterisations are the subject of this section. To that end we first present the tooling that we require for these formalisations, viz. formal semantics, as follows.  }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \tx720\ql\ltrch\loch {\f0\fs24\b0\i0 Regarding the denotation of a representation in formal semantics, we use `typewriter font`, and continue the tradition to use single letters as opposed to full descriptive terms, e.g., \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93`c`\u8221\'94 instead of \u8220\'93`my car`\u8221\'94, apply lower case letters to denote *particulars* and capital letters to denote *types* and *relations*, where unary predicates denote a type and n-ary predicates denote relations. Regarding the conceptualisation and speaking about concepts, as already indicated in \\cref\{somewhere\}, such always demands some form of representation, which is the true source of the semantic problem. Still, despite the impossibility to overcome that problem, the least inaccurate way to address the conceptualisation is by use of mathematics, and we follow the tradition to use set theory to formally represent the conceptualisation. Again, we use single characters, but now in }{\f1\fs24 \\textsf\{\\textsl}{\f0\fs24\b0\i0 \{Slant Font\}\}, lower case characters for individuals and capitals for concepts. Relations are represented as n-ary pairs. We call the actual relationship from representation to conceptualisation one of *subjectivation* in order to underline its subjective and human dimension, as depicted in \\cref\{}{\f0\fs24\b0\i0\cf1 fig:semiotic-triangles}{\f0\fs24\b0\i0 \}. Contrarily, the traditional and formal relationship between any representation and the set theoretic version of the conceptualisation is called the interpretation relation, denoted $\\intn(\\cdot)$. Still, the use of mathematics is much more accurate than any other language, and, the mathematical language remains consistent over the different models that we address. Together, this facilitates in tracing the semantic consistency throughout the agent.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Consider the following definitions on a formal language and its grammar.}
+\par\pard\plain \ri-8561\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Formal language]\\label\{def:formal-language\}}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 A formal language $L$ is a (possibly infinite) set of strings of finite length. The strings are composed from a given alphabet $\\Sigma$.}
+\par\plain {\f0\fs24\b0\i0 Often, but not necessarily, the alphabet is divided into}
+\par\plain {\f0\fs24\b0\i0 \\[}
+\par\plain {\f0\fs24\b0\i0 \\Sigma = \\Sigma_s \\cup \\Sigma_p \\cup \\Sigma_c}
+\par\plain {\f0\fs24\b0\i0 \\]}
+\par\plain {\f0\fs24\b0\i0 where}
+\par\plain {\f0\fs24\b0\i0 \\begin\{itemize\}[label=\{--\}]}
+\par\plain {\f0\fs24\b0\i0 \\item $\\Sigma_s$ denotes the set of atomic symbols that represent individuals; }
+\par\plain {\f0\fs24\b0\i0 \\item $\\Sigma_p$ denotes the set of atomic predicates that represent n-ary relations between individuals;}
+\par\plain {\f0\fs24\b0\i0 \\item $\\Sigma_c$ denotes the set of connectors that represent operators used by the grammar of the language, if any, to produce theories.}
+\par\plain {\f0\fs24\b0\i0 \\end\{itemize\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 This definition underlines that a formal language is nothing more than a set of strings. The grammar of the language, if any, limits the language to a particular subset of all possible strings over $\\Sigma$, called *theories* and denoted as $\\phi$:}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-8561\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Formal grammar]\\label\{def:formal-grammar\}}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 A grammar $G$ of a formal language $L$ is a structure $\\langle N, \\Sigma, P, \\alpha \\rangle$ where:}
+\par\plain {\f0\fs24\b0\i0 \\begin\{itemize\}[label=\{--\}]}
+\par\plain {\f0\fs24\b0\i0 \\item $N$ denotes the set of non-terminal characters;}
+\par\plain {\f0\fs24\b0\i0 \\item $\\Sigma$ denotes the set of terminal characters, i.e., the alphabet;}
+\par\plain {\f0\fs24\b0\i0 \\item $P$ denotes a set of production rules over $N$ and $\\Sigma$;}
+\par\plain {\f0\fs24\b0\i0 \\item $\\alpha \\in N$ represents the start character from which all theories can be generated.}
+\par\plain {\f0\fs24\b0\i0 \\end\{itemize\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 This means that a formal grammar is, essentially, a machine that generates its formal language. The rules $P$ determine which composition of symbols from $\\Sigma$ are considered well-formed strings, i.e., the theories that belong to the language. We do not demand a particular production method; we only demand that the rules $P$ of the production method is capable of producing the intended theories $\\phi$. Any (composition of) symbol(s) from $\\Sigma$ that violates any of the rules $P$, is not part of the language. }
+\par\pard\plain \ri-8561\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 When we talk about the semantics of a language, we refer to the truth value that can be assigned to a theory $\\phi$ from that language. Tarski concluded that the truth value of a formula in a language cannot be defined within that same language [@Tarski:1944wr]. Consequently, a representation always needs to consider two languages, the *object* language that one uses to communicate formulae, and its higher order *metalanguage* that is used to talk about the truth of formulae in the object language. Therefore, a function is required that can make the transition from the language domain to the metalanguage domain. This function is called the *interpretation* $\\intn$, which will take a theory $\\phi$ as argument and produces a construct in the metalanguage. In formal semantics, the metalanguage that is usually applied in literature is set theory, which we use here as well. We consider the following definition on the interpretation function:}
+\par\pard\plain \ri-11769\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Interpretation]\\label\{def:interpretation\}}
+\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 The interpretation $\\intn$ of a theory $\\phi$ from language $L$ is a function $\\intn : L \\to \\EuScript\{D\} \\cup \\EuScript\{R\}$, where }
+\par\pard\plain \ri-11769\ltrch\loch {\f0\fs24\b0\i0 \\begin\{itemize\}[label=\{--\}]}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0   \\item $L$ denotes the language as defined by \\cref\{def:formal-language\}, and represents the domain of $\\intn(\\cdot)$;}
+\par\plain {\f0\fs24\b0\i0   \\item $\\EuScript\{D\}$, representing the range of $\\intn(\\cdot)$, and denoting the Domain of Interpretation, or DoI for short (\\cref\{def:domain-of-interpretation\});}
+\par\plain {\f0\fs24\b0\i0   \\item $\\EuScript\{R\}$, part of the range of $\\intn(\\cdot)$, denotes the extensional relations over $\\EuScript\{D\}^n$ (\\cref\{def:extensional-relations\}). }
+\par\plain {\f0\fs24\b0\i0 \\end\{itemize\}}
+\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 An interpretation ascribes meaning to all theories $\\phi$ from a language by assigning:}
+\par\plain {\f0\fs24\b0\i0 \\begin\{align*\}}
+\par\plain {\f0\fs24\b0\i0  \\forall s \\in \\Sigma_s: \\; &\\intn(s) \\in \\EuScript\{D\} \\\\}
+\par\plain {\f0\fs24\b0\i0  \\forall P \\in \\Sigma_p^n: \\; &\\intn(P) \\subseteq \\EuScript\{R\}}
+\par\plain {\f0\fs24\b0\i0 \\end\{align*\}}
+\par\plain {\f0\fs24\b0\i0 Sometimes an interpretation is also known as a \\emph\{reference\} or a \\emph\{denotation\}, but not here. }
+\par\pard\plain \ri-11769\ltrch\loch {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 This definition introduces the notion of the interpretation function $\\intn(\\cdot)$ that *maps* any theory $\\phi$ from $L$ to $\\EuScript\{D\} \\cup \\EuScript\{R\}$. In other words, any well-formed formula of the language can be extended in set theory. This follows from the *principle of semantic compositionality*, since the mapping assigns for every constant symbol in $\\Sigma_s$ that occurs in $\\phi$ zero, one or more element(s) in $\\EuScript\{D\}$, and for every $n$-ary predicate symbol in $\\Sigma_p^n$ that occurs in $\\phi$ one or more $n$-ary relation(s) in $\\EuScript\{R\}$. Note that the definition does not enforce $\\intn(\\cdot)$ to be surjective on $\\EuScript\{D\} \\cup \\EuScript\{R\}$; in fact, it allows for being non-injective as well (elements from $\\EuScript\{D\} \\cup \\EuScript\{R\}$ can be assigned more than one name).}
+\par\plain \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0}
