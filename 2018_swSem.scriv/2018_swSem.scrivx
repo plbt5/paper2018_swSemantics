@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="PC-17875" Modified="2019-07-15 12:13:30 +0200" ModID="6313BE36-F918-45DE-850A-31281721730A">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="PC-17875" Modified="2019-07-19 13:28:57 +0200" ModID="E6874FD6-4C23-4357-9548-7CC9EDCE9702">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0200" Modified="2017-04-10 13:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -211,7 +211,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>549,0</TextSelection>
+                        <TextSelection>2535,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -239,23 +239,23 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="78" UUID="B5455CDA-9C7E-4074-96B7-E581B47416E0" Created="2018-12-24 17:04:44 +0200" Modified="2019-07-12 23:30:21 +0200" Type="Text">
+                        <BinderItem ID="78" UUID="B5455CDA-9C7E-4074-96B7-E581B47416E0" Created="2018-12-24 17:04:44 +0200" Modified="2019-07-19 10:33:54 +0200" Type="Text">
                             <Title>A semantic monolith</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>7021,0</TextSelection>
+                                <TextSelection>9715,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="79" UUID="D02DF8D4-44A9-4248-B1ED-A5BFCEAF2280" Created="2019-02-12 09:17:38 +0200" Modified="2019-07-15 12:13:28 +0200" Type="Text">
+                        <BinderItem ID="79" UUID="D02DF8D4-44A9-4248-B1ED-A5BFCEAF2280" Created="2019-02-12 09:17:38 +0200" Modified="2019-07-15 13:36:23 +0200" Type="Text">
                             <Title>Enforcing coherence</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1486,0</TextSelection>
+                                <TextSelection>5953,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -297,7 +297,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 14:01:11 +0200" Modified="2019-07-08 17:42:28 +0200" Type="Text">
+                        <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 14:01:11 +0200" Modified="2019-07-15 16:51:03 +0200" Type="Text">
                             <Title>The nature of models</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
@@ -305,13 +305,13 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="7793">7785,8</TextSelection>
+                                <TextSelection>4301,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="77" UUID="7E16AB82-8F2A-42CF-B630-C4EADFF4F36A" Created="2018-10-15 16:21:35 +0200" Modified="2019-07-12 23:40:34 +0200" Type="Text">
+                <BinderItem ID="77" UUID="7E16AB82-8F2A-42CF-B630-C4EADFF4F36A" Created="2018-10-15 16:21:35 +0200" Modified="2019-07-19 13:28:55 +0200" Type="Text">
                     <Title>Architectural consistency</Title>
                     <MetaData>
                         <LabelID>3</LabelID>
@@ -319,7 +319,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3072,0</TextSelection>
+                        <TextSelection>8052,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -367,6 +367,7 @@
                                         <FileExtension>rtf</FileExtension>
                                     </MetaData>
                                     <TextSettings>
+                                        <TextSelection Caret="6024">4525,1499</TextSelection>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
@@ -865,7 +866,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="536" Characters="3681" Date="2019-07-12 15:37:18 +0200"/>
+        <PreviousSession Words="1877" Characters="12277" Date="2019-07-12 15:37:18 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
