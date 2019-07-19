@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="PC-17875" Modified="2019-07-19 21:44:47 +0200" ModID="7C20ABF0-52A7-4868-95AE-735FD1A6ADB9">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.12.0" Device="PC-17875" Modified="2019-07-19 21:48:35 +0200" ModID="09B8F55D-8124-4381-B5C8-AE941FDFCF8C">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0200" Modified="2017-04-10 13:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -312,7 +312,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="77" UUID="7E16AB82-8F2A-42CF-B630-C4EADFF4F36A" Created="2018-10-15 16:21:35 +0200" Modified="2019-07-19 21:43:47 +0200" Type="Text">
+                <BinderItem ID="77" UUID="7E16AB82-8F2A-42CF-B630-C4EADFF4F36A" Created="2018-10-15 16:21:35 +0200" Modified="2019-07-19 21:48:33 +0200" Type="Text">
                     <Title>Architectural consistency</Title>
                     <MetaData>
                         <LabelID>3</LabelID>
@@ -385,7 +385,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2746,0</TextSelection>
+                                <TextSelection>1110,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -860,7 +860,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="2113" Characters="13543" Date="2019-07-12 15:37:18 +0200"/>
+        <PreviousSession Words="2113" Characters="13544" Date="2019-07-12 15:37:18 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
