@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-BoldMT;}{\f2\fmodern\fcharset0\fprq2 monospace;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ltrch\loch {\f0\fs24\b0\i0 Separation of concerns (SoC), in its classical sense, refers to decomposing a system into parts with as minimal functional overlap as possible. It thus separates functionality that is required to maintain a certain concern. In the semantic orientation, we conclude that the thing that should be separated from the system models is the conceptualisation. Then, and only then, the semantic model assures that the agent applies one single conceptualisation only, and, provides for consistency in answering any competency question (see further) that the agent might have about the DoA. Moreover, for a scenario where another conceptualisation should apply, another ASM can provide for such while it remains to provide for, probably different, answers to the same competency questions in a consistent manner nonetheless. This shows how semantics can be addressed as a single concern that has minimal dependency with the rest of the agent. }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 For an ontology its *competency questions* [@Uschold1996;@Uschold1996a;@Gruninger1995;@Ren2014] represent what requirements are for a piece of software: they collectively describe what we demand from the ontology, but since an ontology is not about functionality but about knowledge, the term \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93competency\u8221\'94 is used instead. A competency question (CQ) is a question that we demand the ontology to answer about the DoA, e.g., \u8220\'93How many cats are in the garden?\u8221\'94 or \u8220\'93what toppings are available for an American Pizza?\u8221\'94. The distinction between the functional demands that we set for a piece of software and the knowledge demands that we set for the ASM acts as watershed for the required semantic separation of concern:   }
+\par\plain {\f0\fs24\b0\i0  }
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Semantic separation of concerns]\\label\{def:semantic-soc\}}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 Semantic separation of concerns separates the representation of the conceptualisation node of the semiotic triangle from the functional operations of the agent, such that the agent remains agnostic about how the answers to its competency questions about the domain of application are established while these answers are faithful to the state of affairs, reflect the intention of the conceptualisation of the domain of application and remain consistent with it.}
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 The previous sections already showed several of the semantic concerns that are addressed by the ASM, including the decomposition of semantics in a semantic and a pragmatic meaning, maintaining the coherence between them, their grounding in an ontological commitment, and a formal interpretation in the conceptualisation as a means of semantic validation of facts. Indeed, that specific techniques are required to model an ASM, one that applies, e.g., (i) a backward-looking mode of operation, (ii) a specific modelling language, (iii) inferencing and entailment, and more, remains transparent for any models that use the ASM. }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Another necessary aspect of separation of concerns is for the component to provide for a stable interface in order to hide its specific characteristics. To that end we establish the following principle:}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-8561\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[Competency questions represent the primary interface to the ASM]\\label\{dp:cq-as-api\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} application  \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Quality attributes:\} reusability, consistency, maintainability   \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Rationale:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0   \\item We demand from the ASM to \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93know what our given remark or doctrine says there is\u8221\'94, i.e., represent our conceptualisation on the DoA, whereas the forward looking models implement the (extra-)functional demands of the software agent;}
+\par\plain {\f0\fs24\b0\i0   \\item The digital reflection of the current state of affairs is maintained by the ASM;}
+\par\plain {\f0\fs24\b0\i0   \\item In order for the agent to perform its tasks it requires facts about the DoA while it does not require knowledge about how to answer them, how these facts are substantiated nor how the various parts of the question or answer are structured nor how they are related with other concepts;}
+\par\plain {\f0\fs24\b0\i0   \\item The agent only demands that it is informed about the current state of affairs and that these facts are as faithful to reality as necessary and mutually consistent.}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0   \\item By the ability to ask competency questions to the ASM, the forward looking (system) models are discouraged to define concepts (that relate to the DoI), and maintain their reflection of the state of affairs;}
+\par\plain {\f0\fs24\b0\i0 ..\\item Only those concepts that are addressed in the CQ\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s are relevant for the agent\u8217\'92s (extra)functional operations, and their meaning are automatically addressed as consistent as possible by the software engineer in the agent\u8217\'92s (extra)functional models;  }
+\par\plain {\f0\fs24\b0\i0   \\item ???The forward looking models are capable to instantiate or remove particulars that refer to the DoI, in accordance to their predictive capability.???}
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}  }
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdp\}}
+\par\pard\plain \ri-16872\ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 For the ASM we identify the following main interface requirements:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 1. }{\f1\fs24\b1\i0 Representation}{\f0\fs24\b0\i0 : The first and foremost concern is one of reference, viz. how do we represent a germane entity in the domain of application, uniquely over the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s models? This is not a new service and has already been addressed throughout the years in what have been named information models, schemata, or ER-diagrams. For its interface this translates to exposing each and every concept that are addressed by the competency questions to the agent;}
+\par\plain {\f0\fs24\b0\i0 2. }{\f1\fs24\b1\i0 Structuring}{\f0\fs24\b0\i0 : Given any concept, the ASM should provide for any other concept that relates to it, either the particular relation that applies, or any logical relation that holds, e.g., subsumption, or disjointness;}
+\par\plain {\f0\fs24\b0\i0 3. }{\f1\fs24\b1\i0 Existence}{\f0\fs24\b0\i0 : also known as satisfiability, the ASM should provide for a means to assess whether a concept or relation has been instantiated by the current state of affairs;}
+\par\plain {\f0\fs24\b0\i0 3. }{\f1\fs24\b1\i0 Validity}{\f0\fs24\b0\i0 : given an expressed statement, the ASM should provide for the ability to assess its validity in the current state of affairs, returning True, False or Unknown (the ASM assumes an open world);}
+\par\plain {\f0\fs24\b0\i0 4. }{\f1\fs24\b1\i0 Equivalence}{\f0\fs24\b0\i0 : given two concepts or individuals, assess whether these are equivalent to each other or not;}
+\par\plain {\f0\fs24\b0\i0 5. }{\f1\fs24\b1\i0 Membership}{\f0\fs24\b0\i0 : assert whether an individual is of a certain type or belongs to a certain concept;}
+\par\plain {\f0\fs24\b0\i0 6. }{\f1\fs24\b1\i0 Retrieval}{\f0\fs24\b0\i0 : find the individuals or concepts that respond to the competency questions;}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 We consider these the most important interface demands since these consolidate the semantic concerns. It might be useful to extent these capabilities with a subscription mechanism to become informed of any changes in respect to the particular aspect of the current state of affairs.          }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 We therefore conclude the need for maintaining the semantic SoC between the backward-looking ASM and the forward-looking system models. This is similar to maintaining the Normal Forms as applied in database engineering, but now in order to abstract semantic variations away by introducing explicit -ilities, viz. building consistency between the conceptual model and system models. We conclude furthermore that the relationship between the forward-looking system models and the ASM is constrained to one of *grounding*, defined as follows. }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\begin\{mmdef\}[Model grounding]\\label\{def:model-grounding\}}
+\par\plain {\f0\fs24\b0\i0 A forward-looking system model $\\token\{M\}_f$ is said to \\emph\{ground\} in a backward-looking model $\\token\{M\}_b$, denoted $\\Gamma(\\token\{M\}_f, \\token\{M\}_b)$ when:   }
+\par\plain {\f0\fs24\b0\i0 \\begin\{subequations\}\\label\{eq:model-grounding\}}
+\par\plain {\f0\fs24\b0\i0   \\begin\{align\}}
+\par\plain {\f0\fs24\b0\i0     \\token\{M\}_s \\cup \\token\{M\}_r = \\token\{M\}_f \\, \\land \\, \\token\{M\}_s \\cap \\token\{M\}_r = \\emptyset \\, &\\land \\, \\token\{M\}_r \\neq \\emptyset \\label\{eq:modgnd-a\} \\\\}
+\par\plain {\f0\fs24\b0\i0     \\forall \\token\{r\} \\in \\token\{M\}_r, \\exists \\token\{b\} \\in \\token\{M\}_b \\, &\\to \\, \\token\{r\} \\equiv \\token\{b\}  \\label\{eq:modgnd-b\} \\\\}
+\par\plain {\f0\fs24\b0\i0     \\forall \\token\{s\} \\in \\token\{M\}_s, \\forall \\token\{b\} \\in \\token\{M\}_b \\, &\\to \\, \\token\{s\} \\not\\equiv \\token\{b\}  \\label\{eq:modgnd-c\} }
+\par\plain {\f0\fs24\b0\i0 \\intertext\{where\}}
+\par\plain {\f0\fs24\b0\i0     \\equiv \\text\{denotes semantic equivalence: \} \\token\{x\} \\equiv \\token\{y\} \\, &\\Leftrightarrow \\, \\intn(\\token\{x\}) = \\intn(\\token\{y\})    \\nonumber }
+\par\plain {\f0\fs24\b0\i0   \\end\{align\}}
+\par\plain {\f2\fs24\b0\i0 \\end\{subequations\}}
+\par\plain {\f2\fs24\b0\i0 \\end\{mmdef\}}
+\par\plain {\f0\fs24\b0\i0 >\\Cref\{eq:modgnd-a\} states that a forward-looking model is the disjoint union of two models, $\\token\{M\}_s$ and $\\token\{M\}_r$, the latter containing at least one token. Then, \\cref\{eq:modgnd-b\} demands that for every such token ($\\token\{r\} \\in \\token\{M\}_r$), a token from the backward-looking model exists ($\\token\{b\} \\in \\token\{M\}_b$) that is equivalent to it, i.e., refers to the same concept in the conceptualisation ($\\intn(\\token\{t\}) = \\intn(\\token\{b\})$). Although this equation does not enforce to use the same token, using identical tokens for identical concepts will improve readability of the models. \\Cref\{eq:modgnd-c\} is added to support the forward-looking models in their use of tokens that do not refer to the domain of application but identify other type of entities in stead, viz. system elements.       }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-17053\ql\ltrch\loch {\f0\fs24\b0\i0 The authors of [@Bouck2008] focus on the relations between architectural views and conclude these to be essential for establishing architectural consistency and for maintaining that consistency over time. To that end they have defined several criteria that characterise relations between views. We refer to their publication for the definition of the criteria, and conclude that our proposed Model Grounding relation contributes to the criteria on *consistency checking*, *composition*, and represents an *inter-* as opposed to an intra-model type relation, a *horizontal* relation that relates *models*, and more specifically, uses a *tuple* construct over elements between models, where:}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 * **Consistency checking** is about determining whether the information in several views does not conflict; }
+\par\plain {\f0\fs24\b0\i0 * **Composition of views** (sometimes also referred to \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93merging\u8221\'94 or \u8220\'93integration\u8221\'94 of views) allows the integration of information from several views;}
+\par\plain {\f0\fs24\b0\i0 * **Relation type**. Inter model type relations are relations that involve models of different types;}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 * **Level of Detail**. Relations can be described between complete views, between models,}
+\par\plain {\f0\fs24\b0\i0 and between architectural elements inside views;}
+\par\plain {\f0\fs24\b0\i0 * **Horizontal vs. Vertical Relations**. The term *horizontal* is used for relations between views at the same level of abstraction; *vertical* relations are either relations between views at different levels of abstraction (such as refinements) or relations with other representations (such as requirements, detailed design or even implementation);}
+\par\plain {\f0\fs24\b0\i0 * **Model vs Metamodel**. View relations may be stated with reference to a metamodel or between either models or metamodels;}
+\par\plain {\f0\fs24\b0\i0 * *Tuple* constructs realise the relation as instances of the cartesian product between the two related models. Other constructs that are used to realise the relation are *direct references* and *expression language*, but not here.}
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 During modelling, and particularly of the forward-looking models, in order to maintain the semantic separation of concerns it is necessary to assess the many design decisions on their semantic consequences. For instance, consider a deployment diagram that couples software processes to hardware components in such a way that extra-functional requirements about reliability (fault-tolerance, continuity), performance and throughput, and scalability, are met.  }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0\cf1 ![Deployment model for an algorithm that computes heart rate from an ECG signal. The algorithm can be deployed on either (a) the sensor device or (b) the body hub][def:depldiag]}
+\par\plain \f0\fs24\b0\i0\cf1
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\Cref\{}{\f0\fs24\b0\i0\cf1 fig:deployment-diagram}{\f0\fs24\b0\i0 \} shows an example of a forward-looking (system) model, depicting two scenarios for deployment of a heart rate detection component. Such diagrams do not express any semantics or pragmatics whatsoever. In stead, the model addresses the balance between concerns, viz. performance in relation to continuity and throughput, and refer to specific components and data flows, identified by names *that have been specified in other models*, notably the ASM. The relationship between the system models and the ASM is one of reference: Despite the use of the terms [|ECG] and [|heart rate] to identify those entities, concerns about their meaning, viz. what the tokens refer to in reality, can remain intuitive since the balance in performance, continuity and throughput does not induce any semantic variations. However, such semantic SoC does not always apply. For example, assume that deployment (b) applies a more accurate heart rate detection algorithm than (a) because the body hub, e.g., a smart phone, is a more powerful device. A design decision in favour of deployment (a) implies a lower accuracy. Consequently, semantic SoC does not apply anymore because the pragmatic meaning of the derived heart rate signal is different from that in deployment (b). Therefore, the design choice for either deployment (a) or (b) will impact the reciprocity between data and their processing, which violates \\cref\{dp:semantic-coherence-principle\} that is to be maintained by the ASM. In order to restore semantic SoC, it becomes necessary to introduce the notion on [|accuracy] in the semantic model of the ASM, and include it explicitly to the [|heart rate] as derived by the pragmatic model. Since the heart rate signal now is extended with an accuracy measure, the variation in pragmatic meaning has now been taken into consideration by the ASM. By updating the related competency questions and their retrieval mechanisms, semantic SoC has been consolidated once again.        }
+\par\pard\plain \ri-10760\ql\ltrch\loch \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-16872\ql\ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0\cf1 <!-- page additions -->}
+\par\pard\plain \ri-10760\ql\ltrch\loch \f0\fs24\b0\i0\cf1
+\par\pard\plain \ri-10760\ltrch\loch {\f0\fs24\b0\i0\cf1 [def:depldiag]: src\\images\\DeploymentDiagram.png \{#fig:deployment-diagram width=90%\}}}
