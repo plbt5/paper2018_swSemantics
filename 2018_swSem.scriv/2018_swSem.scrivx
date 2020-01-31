@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2019-12-24 13:49:06 +0100" ModID="4E15DD2C-AFCC-4679-9A89-2DCC6FDC6B55">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-01-31 13:57:37 +0100" ModID="F30D3084-7CFF-4D44-A4D8-CD93C57EDD17">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0100" Modified="2017-04-10 13:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -182,7 +182,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 11:11:59 +0100" Modified="2019-09-30 14:37:17 +0100" Type="Text">
+                <BinderItem ID="19" UUID="FDE3A400-F9AC-4C43-9E25-1275886F76DE" Created="2016-12-28 11:11:59 +0100" Modified="2020-01-23 11:54:21 +0100" Type="Text">
                     <Title>meta-data</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -190,28 +190,29 @@
                         <IconFileName>Information.tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
+                        <TextSelection>2688,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="20" UUID="2D52C627-6E37-4D52-9851-40E13EBC6C43" Created="2018-05-14 14:04:47 +0100" Modified="2019-09-30 14:37:27 +0100" Type="Text">
+                <BinderItem ID="20" UUID="2D52C627-6E37-4D52-9851-40E13EBC6C43" Created="2018-05-14 14:04:47 +0100" Modified="2020-01-13 15:49:36 +0100" Type="Text">
                     <Title>Abstract</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3291,0</TextSelection>
+                        <TextSelection>956,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 11:23:05 +0100" Modified="2019-12-09 12:10:24 +0100" Type="Text">
+                <BinderItem ID="21" UUID="D1B1F11F-646F-4B47-9C11-9FEFCBFD8870" Created="2016-12-28 11:23:05 +0100" Modified="2020-01-17 12:39:36 +0100" Type="Text">
                     <Title>Introduction</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection Caret="7204">7179,25</TextSelection>
+                        <TextSelection>5561,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -235,7 +236,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>18,0</TextSelection>
+                                <TextSelection>6352,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -245,17 +246,17 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>9946,0</TextSelection>
+                                <TextSelection>912,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="79" UUID="D02DF8D4-44A9-4248-B1ED-A5BFCEAF2280" Created="2019-02-12 08:17:38 +0100" Modified="2019-07-19 22:16:26 +0100" Type="Text">
+                        <BinderItem ID="79" UUID="D02DF8D4-44A9-4248-B1ED-A5BFCEAF2280" Created="2019-02-12 08:17:38 +0100" Modified="2020-01-31 13:05:42 +0100" Type="Text">
                             <Title>Enforcing coherence</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="4841">1632,3209</TextSelection>
+                                <TextSelection>8196,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -285,7 +286,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="75" UUID="0D64A671-23AE-4F47-BCE2-F914A86348AD" Created="2018-10-10 14:00:42 +0100" Modified="2019-07-19 22:38:32 +0100" Type="Text">
+                        <BinderItem ID="75" UUID="0D64A671-23AE-4F47-BCE2-F914A86348AD" Created="2018-10-10 14:00:42 +0100" Modified="2020-01-31 13:57:35 +0100" Type="Text">
                             <Title>The nature of faithfulness</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
@@ -425,14 +426,14 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="35" UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Created="2018-05-25 16:05:09 +0100" Modified="2019-03-08 09:23:00 +0100" Type="Text">
+                <BinderItem ID="35" UUID="D5111EC4-CDFF-4351-82C3-91A87C673FCD" Created="2018-05-25 16:05:09 +0100" Modified="2020-01-17 14:09:15 +0100" Type="Text">
                     <Title>Discussion &amp; future work</Title>
                     <MetaData>
                         <LabelID>4</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>631,0</TextSelection>
+                        <TextSelection>586,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
@@ -872,7 +873,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="904" Characters="6159" Date="2019-12-20 17:07:41 +0100"/>
+        <PreviousSession Words="131" Characters="784" Date="2020-01-31 11:23:58 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -880,14 +881,12 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="Text" Scope="Draft" CompileSetting="All" CaseSensitive="No">bachmann</SearchSettings>
+            <SearchSettings Operator="Exact" Type="Text" Scope="Draft" CompileSetting="All" CaseSensitive="No">glass</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
             <BinderIDs>
-                <BinderID>39</BinderID>
-                <BinderID>18</BinderID>
-                <BinderID>44</BinderID>
+                <BinderID>19</BinderID>
             </BinderIDs>
         </Collection>
     </Collections>
