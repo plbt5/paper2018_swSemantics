@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-01-31 13:57:37 +0100" ModID="F30D3084-7CFF-4D44-A4D8-CD93C57EDD17">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-01-31 18:26:33 +0100" ModID="D6F5D361-E775-4623-9E1E-F98A305B9AE8">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0100" Modified="2017-04-10 13:05:49 +0100" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -250,7 +250,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="79" UUID="D02DF8D4-44A9-4248-B1ED-A5BFCEAF2280" Created="2019-02-12 08:17:38 +0100" Modified="2020-01-31 13:05:42 +0100" Type="Text">
+                        <BinderItem ID="79" UUID="D02DF8D4-44A9-4248-B1ED-A5BFCEAF2280" Created="2019-02-12 08:17:38 +0100" Modified="2020-01-31 18:26:31 +0100" Type="Text">
                             <Title>Enforcing coherence</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -294,7 +294,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection Caret="998">857,141</TextSelection>
+                                <TextSelection>2573,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -873,7 +873,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="131" Characters="784" Date="2020-01-31 11:23:58 +0100"/>
+        <PreviousSession Words="121" Characters="690" Date="2020-01-31 11:23:58 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -881,7 +881,7 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="Text" Scope="Draft" CompileSetting="All" CaseSensitive="No">glass</SearchSettings>
+            <SearchSettings Operator="Exact" Type="Text" Scope="Draft" CompileSetting="All" CaseSensitive="No">delta</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
