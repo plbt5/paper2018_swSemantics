@@ -1,0 +1,6 @@
+journal: https://www.journals.elsevier.com/information-and-software-technology/editorial-board
+
+Max words: 15.000 (research paper), figs & tables add 200 words each
+Abstract max words: 300
+
+\end{synopsis}

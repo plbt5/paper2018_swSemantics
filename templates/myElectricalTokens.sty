@@ -1,0 +1,20 @@
+\ProvidesPackage{myElectricalTokens}[2020/05/04 package myElectrcalTokens]	% Based on tikzlibrary{circuits.ee.IEC}: https://tex.stackexchange.com/questions/127641/how-do-i-typeset-the-ground-symbol-in-latex
+
+\RequirePackage{amsmath}				% <amsthm> conflicts with <ntheorem> package (section 3.2.2 ftp://ftp.dante.de/pub/tex/macros/latex/contrib/ntheorem/ntheorem.pdf);
+\RequirePackage{tikz}
+\usetikzlibrary{circuits.ee.IEC}
+
+%%%%%%
+% Definitions
+%%%%%%
+
+
+% Electrical ground
+% Use as:  $X\Ground {Y}$
+\newcommand\Ground{%
+	\mathbin{\text{%
+		\begin{tikzpicture}[circuit ee IEC,yscale=0.6,xscale=0.5]
+			\draw (0,0) to (2ex,0) node[ground,xshift=.65ex] {};
+		\end{tikzpicture}}}%
+}
+

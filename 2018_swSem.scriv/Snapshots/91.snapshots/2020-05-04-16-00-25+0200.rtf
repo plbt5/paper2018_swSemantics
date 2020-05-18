@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}{\f2\fmodern\fcharset0\fprq2 CourierNewPS-BoldMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 Loose coupling emerges}{\f0\fs24\b0\i0  with realisation of separation of concerns and transparency between components. What does that imply for *semantical* loose coupling in an agent? }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Regarding the principle of *separation of concerns*, in its classical sense it refers to decomposing a system into distinct sections that address one concern only and with as minimal *functional* overlap as possible. It thus separates functionality that is required for a certain concern. In the semantic orientation, the Domain Model consolidates the software agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s semantic concern, viz. the reciprocity between data and data processing. Consequently, every model external to the Domain Model, collectively denoted as the System Model, shall neither introduce any new meaning, semantic or pragmatic alike, nor maintain such meaning. Then, and only then, the Domain Model assures that the agent applies one single conceptualisation only, and provides for consistency in referring to and appreciation of the state of affairs. In fact, in principle each and any element of the System Model that refers to the DoA shall find its semantic grounding in the Domain Model. Naturally, any element that refers to an ICT-aspect is considered to fall under control of our own ICT-discipline, the semantics of which eventually relies on a universal social agreement, e.g., a standard. }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Regarding the principle of *transparency*, in its classical interpretation a component remains agnostic to }{\f1\fs24\b0\i1 how}{\f0\fs24\b0\i0  certain functionality has been achieved by another component, as long as it can be used by communicating with it with *minimal dependency*. In its semantic orientation it is impossible to become independent from the code model that provides us with the semantic meaning of terms; we cannot abstain from using syntax. Still, there is more to the code model than syntax, i.e., functions that enforce semantic constraints to apply, and the formal tools of ontological analysis[^FTOA]. Other components only need to rely on these to apply by the Domain Model, not *how* they are applied or their intricate semantic consequences. Additionally, maintaining independence from the inference model allows components to remain agnostic about (i) whether data are sourcing from actual sensory or user input, or that these are inferred from knowledge, (ii) if and how a change in state of affairs is consequential for its own operation, as long as it\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s informed when consequences apply, and (iii) how the constraints that follow from an ontological commitment are enforced.  }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 This shows how semantics can be addressed in a loosely coupled fashion to consolidate the semantic concern with minimal dependency with the rest of the agent. However, it remains unclear what kind of services the Domain Model should provide to the System Model. We therefore consider two orthogonal facets of use. Firstly, the DM is simply yet another database but one that maintains a representation on the domain\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s state of affairs. Secondly, the DM is about knowledge that describes the dependencies in the DoA. While the use of the data facet is characterised by standard CRUD services, use of the knowledge facet is characterised by the domain competencies that the DM encapsulates. These latter competencies }{\field{\*\fldinst HYPERLINK "scrivcmt://109B3475-E435-4F04-889B-7E2D406E2A95"}{\fldrslt\f0\fs24\b0\i0 include}}{\f0\fs24\b0\i0 : }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \li17\fi-8\ltrch\loch {\f0\fs24\b0\i0 1. }{\f2\fs24\b1\i0 Representation}{\f0\fs24\b0\i0 : The first and foremost capabilities is one of reference, viz. to represent a germane entity in the domain of application, uniquely over the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s models. This is not a new service and has already been addressed throughout the years in what have been named information models, schemata, or ER-diagrams. For the DM\u8217\'92s interface this translates to exposing each and every concept that are addressed by the competency questions to the agent;}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 2. }{\f2\fs24\b1\i0 Existence}{\f0\fs24\b0\i0 : also known as satisfiability, the DM should provide for a means to assess whether (i) an individual has been instantiated by or (ii) a concept applies in the current state of affairs;}
+\par\plain {\f0\fs24\b0\i0 3. }{\f2\fs24\b1\i0 Validity}{\f0\fs24\b0\i0 : given an expressed statement, the DM should provide for the ability to assess its validity in the current state of affairs, returning True, False or Unknown (an open world assumption is required to accurately represent state of affairs);}
+\par\plain {\f0\fs24\b0\i0 4. }{\f2\fs24\b1\i0 Equivalence}{\f0\fs24\b0\i0 : given two concepts or individuals, assess whether these are equivalent to each other }{\field{\*\fldinst HYPERLINK "scrivcmt://0B76FE76-ED47-41A7-82F5-E72F3BA4DE0E"}{\fldrslt\f0\fs24\b0\i0 or not}}{\f0\fs24\b0\i0 ;}
+\par\plain {\f0\fs24\b0\i0 5. }{\f2\fs24\b1\i0 Membership}{\f0\fs24\b0\i0 : assert whether an individual is of a certain type or belongs to a certain concept;}
+\par\plain {\f0\fs24\b0\i0 6. }{\f2\fs24\b1\i0 Retrieval}{\f0\fs24\b0\i0 : The capability to find the individuals or concepts that respond to the competency questions;}
+\par\plain {\f0\fs24\b0\i0 7. }{\f2\fs24\b1\i0 Instantiation}{\f0\fs24\b0\i0 : The capability to add new individuals of a particular type.}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 *Competency questions* [@Uschold1996;@Uschold1996a;@Gruninger1995;@Ren2014] represent for the DM what requirements are for a piece of software: they collectively describe what we demand from the DM, but since this demand is not about functionality but about knowledge, the term \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93competency\u8221\'94 is used instead. A competency question (CQ) is a question for which the agent demands answer. CQ\u8217\'92s are always about the DoA, e.g., \u8220\'93How many cats are in the garden?\u8221\'94 or \u8220\'93what toppings are available for an American Pizza?\u8221\'94. }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 It might be useful to extent these capabilities with a subscription mechanism to become informed of any changes in respect to the particular aspect of the current state of affairs.          }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-8561\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[Domain border principle]\\label\{dp:domain-competency-principle\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 The interface with the ASM is the one and only location to specify the border between background and foreground knowledge. Competency questions are the principled interface with the ASM. \\\\}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} business \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Quality attributes:\} ... \\\\}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Rationale:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0   \\item The ASM represents the actual state of affairs, viz. data that reflects the state of the germane entities in the DoA;  }
+\par\plain {\f0\fs24\b0\i0   \\item ;}
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0   \\item ;}
+\par\plain {\f0\fs24\b0\i0   \\item ....}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\}}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0   \\item }{\field{\*\fldinst HYPERLINK "scrivcmt://4C09B4B7-E733-47D2-999C-D76DC076EF84"}{\fldrslt\f0\fs24\b0\i0 ...;}}{\f0\fs24\b0\i0  }
+\par\plain {\f0\fs24\b0\i0   \\item ...;}
+\par\plain {\f0\fs24\b0\i0   \\item ...;}
+\par\plain {\f0\fs24\b0\i0   \\item ....  }
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}  }
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdp\}}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0  }
+\par\pard\plain \ri-16963\ltrch\loch {\f0\fs24\b0\i0 <!-- -->}
+\par\pard\plain \ri-16963\ql\ltrch\loch {\f0\fs24\b0\i0 [^FTOA]: The formal tools of ontological analysis include theories of Essence and Identity; Parts (Mereology); Unity and Plurality; Dependence; Composition and Constitution; Properties and Qualities; and Space and Time.}
+\par\pard\plain \ql\ltrch\loch \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0}

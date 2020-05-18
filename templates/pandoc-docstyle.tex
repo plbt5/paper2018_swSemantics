@@ -2,8 +2,10 @@
 \usepackage{templates/mystyle2015}			% Indeed, my project styles
 \usepackage{templates/mySpecialTokens}		% Definition of tokens used in modal logic, formal semantics and term rewriting
 \usepackage{templates/myarrows}				% Some few specific arrow symbols used throughout the document, based on extpfeil
+\usepackage{templates/myElectricalTokens}		% For the Grounding symbol
 \usepackage[en-GB,datesep={-}]{datetime2}
 \usepackage{longtable}
+\usepackage{gensymb}						% Generic macros to typeset units of measurements independent on text or math modes. See http://ctan.cs.uu.nl/macros/latex/contrib/was/gensymb.pdf
 
 %\usepackage{amssymb, setspace, rotating, titlesec, adjustbox, array, threeparttable}
 \usepackage{amssymb, setspace, rotating, titlesec, adjustbox, array, threeparttable}
@@ -299,7 +301,7 @@ $endif$
 
 
 % --- Keywords --- --- --- --- ---
-$if(kw)$		% use option -M kw	
+$if(kw)$		% use pandoc option -M KEY[=VAL]	
 \begin{keywords}
 $tags$
 \end{keywords}
@@ -310,7 +312,7 @@ $endif$
 % --- table of contents --- --- --- --- ---
 %
 % add table of contents to pdf bookmarks
-$if(toc)$		% use option --toc
+$if(toc)$		% use pandoc option --toc
 \tableofcontents
 %\pagebreak
 %\printglossaries
@@ -318,10 +320,13 @@ $if(toc)$		% use option --toc
 
 List of definitions:
 \listtheorems{mmdef}
+
+%List of design principles:
+%\listtheorems{mmdp}
 $endif$
 
 % add list of todo's that are outstanding for this text
-$if(todo)$		% use option --todo
+$if(todo)$		% use pandoc option -V todo
 \listoftodos
 \pagebreak
 $endif$
