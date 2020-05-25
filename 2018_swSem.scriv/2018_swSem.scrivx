@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-05-18 21:59:33 +0200" ModID="7204B5F4-1C93-4FC3-A009-65C0DF50BFDA">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-05-25 17:53:56 +0200" ModID="0D5969B8-099E-4CD8-8812-3939C02A81F4">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0200" Modified="2017-04-10 13:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -217,7 +217,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="26" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 21:31:19 +0200" Modified="2020-05-05 17:06:08 +0200" Type="Text">
+                <BinderItem ID="26" UUID="7E8CD1DC-958E-405D-941C-B09DF79ECCAC" Created="2018-07-04 21:31:19 +0200" Modified="2020-05-21 10:32:32 +0200" Type="Text">
                     <Title>Semiotic and pragmatic concerns</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
@@ -225,7 +225,7 @@
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>1028,0</TextSelection>
+                        <TextSelection>903,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
@@ -237,7 +237,7 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>13520,0</TextSelection>
+                                <TextSelection>10679,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -248,18 +248,18 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>7130,0</TextSelection>
+                                <TextSelection Caret="4377">4361,16</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="98" UUID="EA41C06A-6AFC-4691-9027-35CA8DE48154" Created="2020-04-17 16:21:15 +0200" Modified="2020-05-18 21:59:31 +0200" Type="Text">
+                        <BinderItem ID="98" UUID="EA41C06A-6AFC-4691-9027-35CA8DE48154" Created="2020-04-17 16:21:15 +0200" Modified="2020-05-21 12:27:00 +0200" Type="Text">
                             <Title>Atomicity</Title>
                             <MetaData>
-                                <LabelID>0</LabelID>
+                                <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>9485,0</TextSelection>
+                                <TextSelection Caret="2434">2385,49</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -270,7 +270,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>8238,18</TextSelection>
+                                <TextSelection Caret="1644">1611,33</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -288,7 +288,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="24" UUID="2B718AB0-8CA6-4D53-8005-936639FDFE18" Created="2018-07-04 21:31:55 +0200" Modified="2020-04-13 13:12:32 +0200" Type="Text">
+                        <BinderItem ID="24" UUID="2B718AB0-8CA6-4D53-8005-936639FDFE18" Created="2018-07-04 21:31:55 +0200" Modified="2020-05-21 12:05:23 +0200" Type="Text">
                             <Title>Ontological commitment</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -296,11 +296,11 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>10443,0</TextSelection>
+                                <TextSelection Caret="10082">10043,39</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 14:01:11 +0200" Modified="2020-05-04 16:09:18 +0200" Type="Text">
+                        <BinderItem ID="76" UUID="A7B8413B-C6C7-412E-AB31-916B3445B40F" Created="2018-10-10 14:01:11 +0200" Modified="2020-05-25 17:37:18 +0200" Type="Text">
                             <Title>The nature of models</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -308,16 +308,16 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>1100,0</TextSelection>
+                                <TextSelection>14729,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="77" UUID="7E16AB82-8F2A-42CF-B630-C4EADFF4F36A" Created="2018-10-15 16:21:35 +0200" Modified="2020-05-04 10:05:59 +0200" Type="Text">
+                <BinderItem ID="77" UUID="7E16AB82-8F2A-42CF-B630-C4EADFF4F36A" Created="2018-10-15 16:21:35 +0200" Modified="2020-05-25 17:53:54 +0200" Type="Text">
                     <Title>Architectural consistency</Title>
                     <MetaData>
-                        <LabelID>5</LabelID>
+                        <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
                     </MetaData>
@@ -326,7 +326,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="92" UUID="9981601D-42F0-4D28-80BC-744084A8FABB" Created="2019-11-25 14:27:23 +0200" Modified="2020-05-04 16:06:03 +0200" Type="Text">
+                        <BinderItem ID="92" UUID="9981601D-42F0-4D28-80BC-744084A8FABB" Created="2019-11-25 14:27:23 +0200" Modified="2020-05-25 12:21:53 +0200" Type="Text">
                             <Title>Relating the Domain and System Model</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
@@ -334,30 +334,30 @@
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>361,0</TextSelection>
+                                <TextSelection>4585,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="91" UUID="F3F55F95-3789-4451-949A-F1818050B68E" Created="2019-06-04 17:18:54 +0200" Modified="2020-05-05 18:03:26 +0200" Type="Text">
+                        <BinderItem ID="91" UUID="F3F55F95-3789-4451-949A-F1818050B68E" Created="2019-06-04 17:18:54 +0200" Modified="2020-05-25 17:41:33 +0200" Type="Text">
                             <Title>Semantic services</Title>
                             <MetaData>
-                                <LabelID>5</LabelID>
+                                <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                                 <FileExtension>rtf</FileExtension>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2392,0</TextSelection>
+                                <TextSelection>7049,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="97" UUID="72B16EF9-114D-45C4-B6C6-2502E616BA58" Created="2020-04-13 17:03:30 +0200" Modified="2020-04-13 17:04:15 +0200" Type="Text">
+                        <BinderItem ID="97" UUID="72B16EF9-114D-45C4-B6C6-2502E616BA58" Created="2020-04-13 17:03:30 +0200" Modified="2020-05-25 17:03:32 +0200" Type="Text">
                             <Title>Example</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2112,0</TextSelection>
+                                <TextSelection>2913,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -429,47 +429,47 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="93" UUID="DE114498-53A9-4C80-9D88-F245E357DE3C" Created="2020-03-30 18:40:26 +0200" Modified="2020-04-10 11:36:14 +0200" Type="Text">
+                        <BinderItem ID="93" UUID="DE114498-53A9-4C80-9D88-F245E357DE3C" Created="2020-03-30 18:40:26 +0200" Modified="2020-05-25 12:48:40 +0200" Type="Text">
                             <Title>Purpose of software architecture</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2236,0</TextSelection>
+                                <TextSelection>972,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="94" UUID="FD43AF6C-3952-430C-A2B7-A9FB6DA029C6" Created="2020-03-30 18:42:21 +0200" Modified="2020-05-15 13:45:20 +0200" Type="Text">
+                        <BinderItem ID="94" UUID="FD43AF6C-3952-430C-A2B7-A9FB6DA029C6" Created="2020-03-30 18:42:21 +0200" Modified="2020-05-25 12:47:29 +0200" Type="Text">
                             <Title>Views and viewpoints</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2069,0</TextSelection>
+                                <TextSelection>3357,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="95" UUID="B144549A-2D5B-4754-AE10-71654EEBFAFB" Created="2020-03-30 18:45:52 +0200" Modified="2020-05-15 13:45:20 +0200" Type="Text">
+                        <BinderItem ID="95" UUID="B144549A-2D5B-4754-AE10-71654EEBFAFB" Created="2020-03-30 18:45:52 +0200" Modified="2020-05-25 17:44:08 +0200" Type="Text">
                             <Title>The ASM is a view of the system architecture</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>2624,0</TextSelection>
+                                <TextSelection>3928,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="96" UUID="554A6DAE-5A97-47FA-8CBE-417890AB72AD" Created="2020-03-30 18:46:41 +0200" Modified="2020-04-20 11:36:04 +0200" Type="Text">
+                        <BinderItem ID="96" UUID="554A6DAE-5A97-47FA-8CBE-417890AB72AD" Created="2020-03-30 18:46:41 +0200" Modified="2020-05-21 12:32:12 +0200" Type="Text">
                             <Title>Addressing system qualities</Title>
                             <MetaData>
                                 <LabelID>5</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>3218,0</TextSelection>
+                                <TextSelection>5920,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -956,7 +956,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="923" Characters="5837" Date="2020-05-15 13:45:36 +0200"/>
+        <PreviousSession Words="291" Characters="2079" Date="2020-05-25 10:16:27 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
@@ -964,10 +964,13 @@
         </Collection>
         <Collection Type="RecentSearch" ID="DEADBEEF-0000-0000-0000-000000000000" Color="0.901961 0.901961 0.980392">
             <Title>Search Results</Title>
-            <SearchSettings Operator="Exact" Type="Text" Scope="Draft" CompileSetting="All" CaseSensitive="No">conceptual mode</SearchSettings>
+            <SearchSettings Operator="Exact" Type="Text" Scope="Draft" CompileSetting="All" CaseSensitive="No">\crefdp</SearchSettings>
         </Collection>
         <Collection Type="Arbitrary" ID="18AB1D71-1C6E-4B63-93E1-6A8BEF516D46" Color="0.992157 0.972549 0.819608">
             <Title>Updated Documents</Title>
+            <BinderIDs>
+                <BinderID>94</BinderID>
+            </BinderIDs>
         </Collection>
         <Collection Type="Arbitrary" ID="BE71A471-3F2F-4421-A78D-7FF25B0F1C78" Color="0.841505 0.990005 0.925658">
             <Title>Chapter-5</Title>
