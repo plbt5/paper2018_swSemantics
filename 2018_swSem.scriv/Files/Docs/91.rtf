@@ -15,14 +15,14 @@
 \par\pard\plain \li17\fi-8\ltrch\loch {\f0\fs24\b0\i0     \\item[1. Representation:] The first and foremost capabilities is one of reference, viz. to represent a germane entity in the domain of application, uniquely over the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s models. This is not a new service and has already been addressed throughout the years in what have been named information models, schemata, or ER-diagrams. For the Domain Model\u8217\'92s interface this translates to exposing each and every concept that it knows about to the agent;}
 \par\plain {\f0\fs24\b0\i0     \\item[2. Existence:] also known as satisfiability, the Domain Model should provide for a means to assess whether an individual or concept applies in the current state of affairs;}
 \par\plain {\f0\fs24\b0\i0     \\item[3. Validity:] given an expressed statement, the Domain Model should provide for the ability to assess its validity in the current state of affairs, returning True, False or Unknown (an open world assumption is required to accurately represent state of affairs);}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0     \\item[4. Equivalence:] given two concepts or individuals, assess whether these are equivalent to each other }{\f0\fs24\b0\i0 or not}{\f0\fs24\b0\i0 ;}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0     \\item[4. Equivalence:] given two concepts or individuals, assess whether these are equivalent to each other or not;}
 \par\pard\plain \li17\fi-8\ql\ltrch\loch {\f0\fs24\b0\i0     \\item[5. Membership:] assert whether an individual belongs to a certain concept or whether a specific concept belongs to a more generic concept. Similarly, ask what individuals belong to a certain concept or what concepts belong to a more generic concept. }
 \par\plain {\f0\fs24\b0\i0   \\end\{description\} }
 \par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\end\{description\}}
 \par\pard\plain \li17\fi-8\ri-17683\ql\ltrch\loch \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 We formulate the following design principle to characterise the semantic services that apply. }
 \par\pard\plain \ri-17683\ltrch\loch \f0\fs24\b0\i0
-\par\pard\plain \ri-17683\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[3-faceted services principle]\\label\{dp:three-faceted-services-principle\}}
+\par\pard\plain \ri-17683\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[3-faceted services principle]\\label\{dp:three-faceted-services\}}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 The Domain model provides services that address its database facet, domain knowledge facet and generic knowledge facet. \\\\}
 \par\pard\plain \ri-17683\ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} data, application \\\\}
@@ -35,8 +35,8 @@
 \par\pard\plain \ri-17683\ltrch\loch {\f0\fs24\b0\i0 \\end\{enumerate\}}
 \par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\}}
 \par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
-\par\pard\plain \ri-17683\ql\ltrch\loch {\f0\fs24\b0\i0   \\item }{\f0\fs24\b0\i0 CRUD services are the }{\f0\fs24\b0\i0 principled interface to access the current state of affairs in the DoA}{\f0\fs24\b0\i0 ;}
-\par\plain {\f0\fs24\b0\i0   \\item Due to the inference capabilities, the relationship between moment of inference and execution of CRUD services needs to be specified; }{\f0\fs24\b0\i0  }
+\par\pard\plain \ri-17683\ql\ltrch\loch {\f0\fs24\b0\i0   \\item CRUD services are the principled interface to access the current state of affairs in the DoA;}
+\par\plain {\f0\fs24\b0\i0   \\item Due to the inference capabilities, the relationship between moment of inference and execution of CRUD services needs to be specified;  }
 \par\plain {\f0\fs24\b0\i0   \\item Competency questions are the principled interface to access and assess the domain knowledge and state of affairs in the domain of application;}
 \par\pard\plain \ri-17683\ltrch\loch {\f0\fs24\b0\i0   \\item Particular choices for its logical foundation will influence the domain agnostic service capabilities;}
 \par\pard\plain \ri-17683\ql\ltrch\loch {\f0\fs24\b0\i0   \\item The interface of the Domain Model is the one and only location that specify the border between background (implicit) and foreground (explicit) knowledge.  }

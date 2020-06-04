@@ -180,9 +180,12 @@
 \theoremprework{\hrule}
 \theorempostwork{\hrule}
 \newtheorem{mmthrq}{Research Question}
-% Assumption				-- are numbered by chapter, and carry an asterisk as closing symbol
+% Assumption & Heuristics	-- are numbered by chapter, header in small caps, and carry an asterisk as closing symbol
+%\theoremheaderfont{\scshape}
 \newtheorem{mmasmptn}{Assumption}[chapter]
-% Definitions & theorems	-- are numbered by chapter, and carry a black square as closing symbol
+\newtheorem{mmh}{\textsc{Heuristic}}[chapter]
+% Definitions & theorems	-- are numbered by chapter, header in bold font, and carry a black square as closing symbol
+\theoremheaderfont{\normalfont\bfseries}
 \theoremsymbol{\ensuremath{_\blacksquare}}
 \theorembodyfont{\slshape}
 \newtheorem{mmdef}{Definition}[chapter]
@@ -206,6 +209,7 @@
 \crefname{mmprf}{Proof}{Proofs}
 \crefname{mmdp}{Design Principle}{Design Principles}
 \crefname{mmasmptn}{Assumption}{Assumptions}
+\crefname{mmh}{Heuristic}{Heuristics}
 \crefname{mmrmk}{Remark}{Remarks}
 \crefname{chapter}{Chapter}{Chapters}
 \crefname{section}{Section}{Sections}
