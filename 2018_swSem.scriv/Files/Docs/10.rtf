@@ -34,11 +34,11 @@
 \par\plain {\f0\fs24\b0\i0 | Oranges       | $2.10         | - cures scurvy     |}
 \par\plain {\f0\fs24\b0\i0 |               |               | - tasty            |}
 \par\plain {\f0\fs24\b0\i0 +---------------+---------------+--------------------+}
-\par\plain {\f0\fs24\b0\i0 The row of }{\f0\fs24\b0\i0 =\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92}{\f0\fs24\b0\i0 s separates the header from the table body, and can be omitted for a headerless table. The cells of grid tables may contain arbitrary block elements (multiple paragraphs, code blocks, lists, etc.). Alignments are not supported, nor are cells that span multiple columns or rows. }
+\par\plain {\f0\fs24\b0\i0 The row of =\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s separates the header from the table body, and can be omitted for a headerless table. The cells of grid tables may contain arbitrary block elements (multiple paragraphs, code blocks, lists, etc.). Alignments are not supported, nor are cells that span multiple columns or rows. }
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f1\fs26\b1\i0 Multiline tables}
-\par\plain {\f1\fs24\b1\i0 Multiline tables}{\f0\fs24\b0\i0  are also possible, and allow headers and table rows to span multiple lines of text (but cells that span multiple columns or rows of the table are not supported). Here is an example:}
-\par\plain {\f0\fs24\b0\i0 -------------------------------------------------------------}
+\par\pard\plain \ri-16974\ltrch\loch {\f1\fs24\b1\i0 Multiline tables}{\f0\fs24\b0\i0  are also possible, and allow headers and table rows to span multiple lines of text (but cells that span multiple columns or rows of the table are not supported). NOTE THE WHITE LINE BETWEEN SEPARATION THE ROWS. When one wants a separate white line between the rows also in the output, insert a row with a space only, e.g., $\\;$. Note that this row is just another row and hence needs to be separated by a blank line as well. Here is an example:}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 -------------------------------------------------------------}
 \par\plain {\f0\fs24\b0\i0  Centered   Default           Right Left}
 \par\plain {\f0\fs24\b0\i0   Header    Aligned         Aligned Aligned}
 \par\plain {\f0\fs24\b0\i0 ----------- ------- --------------- -------------------------}
@@ -47,8 +47,16 @@
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0   Second    row                 5.0 Here's another one. Note}
 \par\plain {\f0\fs24\b0\i0                                     the blank line between}
-\par\plain {\f0\fs24\b0\i0                                     rows.}
-\par\plain {\f0\fs24\b0\i0 -------------------------------------------------------------}
+\par\plain {\f0\fs24\b0\i0                                     rows. No blank line}
+\par\plain {\f0\fs24\b0\i0                                     is shown in the output.}
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0 $\\;$}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0   Third     row, which is actually  This row is separated in }
+\par\plain {\f0\fs24\b0\i0             the 4th since the 3rd   its output from the 2nd}
+\par\plain {\f0\fs24\b0\i0             row is the row with a   row.}
+\par\plain {\f0\fs24\b0\i0             only blank space in it}
+\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 -------------------------------------------------------------}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0    : Here's the caption. It, too, may span}
 \par\plain {\f0\fs24\b0\i0 multiple lines.}
