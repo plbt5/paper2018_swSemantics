@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-09-28 14:28:21 +0200" ModID="1E243DF8-D88F-40ED-AB51-FFD713D58F80">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="PC-17875" Modified="2020-10-06 11:58:28 +0200" ModID="092349CF-1382-4094-ADDB-D3779EFC6A8D">
     <Binder>
         <BinderItem ID="5" UUID="B892768D-F62D-4A48-8846-84245826AF35" Created="2017-04-10 13:05:49 +0200" Modified="2017-04-10 13:05:49 +0200" Type="Text">
             <Title>MMD cheat sheet</Title>
@@ -429,47 +429,47 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="93" UUID="DE114498-53A9-4C80-9D88-F245E357DE3C" Created="2020-03-30 18:40:26 +0200" Modified="2020-06-15 12:04:54 +0200" Type="Text">
+                        <BinderItem ID="93" UUID="DE114498-53A9-4C80-9D88-F245E357DE3C" Created="2020-03-30 18:40:26 +0200" Modified="2020-10-06 11:36:48 +0200" Type="Text">
                             <Title>Purpose of software architecture</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>217,0</TextSelection>
+                                <TextSelection>2509,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="94" UUID="FD43AF6C-3952-430C-A2B7-A9FB6DA029C6" Created="2020-03-30 18:42:21 +0200" Modified="2020-06-15 12:04:54 +0200" Type="Text">
+                        <BinderItem ID="94" UUID="FD43AF6C-3952-430C-A2B7-A9FB6DA029C6" Created="2020-03-30 18:42:21 +0200" Modified="2020-10-06 11:39:01 +0200" Type="Text">
                             <Title>Views and viewpoints</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>4824,0</TextSelection>
+                                <TextSelection>2088,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="95" UUID="B144549A-2D5B-4754-AE10-71654EEBFAFB" Created="2020-03-30 18:45:52 +0200" Modified="2020-09-28 14:28:19 +0200" Type="Text">
+                        <BinderItem ID="95" UUID="B144549A-2D5B-4754-AE10-71654EEBFAFB" Created="2020-03-30 18:45:52 +0200" Modified="2020-10-06 11:43:21 +0200" Type="Text">
                             <Title>The Domain Model represents a view of the system architecture</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>7783,0</TextSelection>
+                                <TextSelection>8024,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="96" UUID="554A6DAE-5A97-47FA-8CBE-417890AB72AD" Created="2020-03-30 18:46:41 +0200" Modified="2020-06-15 12:04:54 +0200" Type="Text">
+                        <BinderItem ID="96" UUID="554A6DAE-5A97-47FA-8CBE-417890AB72AD" Created="2020-03-30 18:46:41 +0200" Modified="2020-10-06 10:10:30 +0200" Type="Text">
                             <Title>Addressing system qualities</Title>
                             <MetaData>
                                 <LabelID>6</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>5920,0</TextSelection>
+                                <TextSelection>1936,0</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -956,7 +956,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2012-04-24 00:00:00 +0000" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="27" Characters="0" Date="2020-09-28 09:07:04 +0200"/>
+        <PreviousSession Words="10" Characters="91" Date="2020-10-05 12:18:49 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="CAFEBABE-0000-0000-0000-000000000000" Color="0.901961 0.917647 0.933333">
