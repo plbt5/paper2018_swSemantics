@@ -2,11 +2,11 @@
 <Snapshots Version="1.0">
     <Snapshot>
         <Title>BEfore removing semantical SoC</Title>
-        <Date>2020-04-10 15:36:19 +0200</Date>
+        <Date>2020-04-10 15:36:19 +0100</Date>
     </Snapshot>
     <Snapshot>
         <Title>Before simplifying to Grounding Principle only</Title>
-        <Date>2020-05-01 17:23:08 +0200</Date>
+        <Date>2020-05-01 17:23:08 +0100</Date>
         <Comments>
             <Comment ID="98F8EBF2-6789-47C2-BC04-1596CACA63DC" Collapsed="No" Color="0.996078 0.964706 0.737255"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
 {\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
@@ -21,5 +21,9 @@
 \pgnrestart\pgnstarts0
 \pard\plain \ltrch\loch {\f0\fs22\b0\i0 brandtp, 10-4-2020 Finalise implications of }{\f1\fs24\b0\i0 Semantic grounding principle}}]]></Comment>
         </Comments>
+    </Snapshot>
+    <Snapshot>
+        <Title>Pre-sync Hanneke 2de ronde</Title>
+        <Date>2020-11-23 12:48:18 +0100</Date>
     </Snapshot>
 </Snapshots>

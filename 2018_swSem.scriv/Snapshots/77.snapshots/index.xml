@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Snapshots Version="1.0">
     <Snapshot>
-        <Date>2018-11-29 15:58:23 +0200</Date>
+        <Date>2018-11-29 14:58:23 +0100</Date>
         <Comments>
             <Comment ID="12164D14-29CE-41A4-97B8-A17A54B11559" Collapsed="No" Color="0.996078 0.964706 0.737255"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
 {\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
@@ -12,6 +12,10 @@
         </Comments>
     </Snapshot>
     <Snapshot>
-        <Date>2019-05-31 14:52:38 +0200</Date>
+        <Date>2019-05-31 14:52:38 +0100</Date>
+    </Snapshot>
+    <Snapshot>
+        <Title>Pre-sync Hanneke 2de ronde</Title>
+        <Date>2020-11-23 12:38:02 +0100</Date>
     </Snapshot>
 </Snapshots>

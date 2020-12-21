@@ -4,7 +4,10 @@
 \usepackage{templates/myarrows}				% Some few specific arrow symbols used throughout the document, based on extpfeil
 \usepackage{templates/myElectricalTokens}		% For the Grounding symbol
 \usepackage[en-GB,datesep={-}]{datetime2}
-\usepackage{longtable}
+%\usepackage{longtable}
+\usepackage{xltabular}					% Includes longtable with the column specifier X as in tabularx
+\usepackage{caption}						% For placing labels in a floating environment (specifically, multiple design principles in a table)
+\usepackage[within=none]{newfloat}					% For specifying a new foating environment (specifically, design principles)
 \usepackage{gensymb}						% Generic macros to typeset units of measurements independent on text or math modes. See http://ctan.cs.uu.nl/macros/latex/contrib/was/gensymb.pdf
 
 %\usepackage{amssymb, setspace, rotating, titlesec, adjustbox, array, threeparttable}
@@ -142,6 +145,8 @@
 %
 %% test stuff
 
+\DeclareFloatingEnvironment[listname={List of Design Principles}]{DesignPrinciple}
+
 % Redefining the paragraph level into a case - see https://tex.stackexchange.com/questions/129208/numbering-paragraphs-in-latex
 \newcounter{para}
 \renewcommand\paragraph[1]{%
@@ -192,7 +197,7 @@
 \newtheorem{mmtrm}{Theorem}[chapter]
 % Design Principles, proofs	-- are numbered by chapter, and carry an open diamond as closing symbol
 \theoremsymbol{\ensuremath{_\diamond}}
-\newtheorem{mmdp}{Design Principle}[chapter]
+\newtheorem{mmdp}{DP}
 \newtheorem{mmprf}{Proof}[chapter]
 % Remarks to tables, figures, whatever -- restart numbering at sections, no closing symbol
 \theoremsymbol{}			% no symbol
@@ -286,13 +291,15 @@ $endfor$
 
 %%% Glossaries: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-$if(toc)$
-\makeglossaries
-$endif$
+%$if(toc)$
+%\makeglossaries
+%$endif$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-% Set the properties of the easylist
+% Set properties of particular packages
+% caption
+\captionsetup[DesignPrinciple]{margin=10pt,font=small,labelfont=bf}
 
 %\pagebreak
 
@@ -322,11 +329,15 @@ $if(toc)$		% use pandoc option --toc
 %\printglossaries
 \pagebreak
 
-List of definitions:
-\listtheorems{mmdef}
+\listoftables
+
+\listoffigures
+
+%List of definitions:
+%\listtheorems{mmdef}
 
 %List of design principles:
-\listtheorems{mmdp}
+%\listtheorems{mmdp}
 $endif$
 
 % add list of todo's that are outstanding for this text

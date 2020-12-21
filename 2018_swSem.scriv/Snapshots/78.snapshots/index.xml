@@ -2,7 +2,7 @@
 <Snapshots Version="1.0">
     <Snapshot>
         <Title>as sent to Twan &amp; Eric</Title>
-        <Date>2019-01-24 08:37:41 +0200</Date>
+        <Date>2019-01-24 07:37:41 +0100</Date>
         <Comments>
             <Comment ID="B276A47B-7D35-4DC8-8ADD-2D643EBF17E3" Collapsed="No" Color="0.996078 0.964706 0.737255"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
 {\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
@@ -19,7 +19,7 @@
         </Comments>
     </Snapshot>
     <Snapshot>
-        <Date>2019-05-31 14:52:38 +0200</Date>
+        <Date>2019-05-31 14:52:38 +0100</Date>
         <Comments>
             <Comment ID="B276A47B-7D35-4DC8-8ADD-2D643EBF17E3" Collapsed="No" Color="0.996078 0.964706 0.737255"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
 {\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
@@ -34,5 +34,9 @@
 \pgnrestart\pgnstarts0
 \pard\plain \ltrch\loch {\f0\fs22\b0\i0 brandtp, 8/30/2018 ... ditto ... Note that I do not refer to business models, but to the code that produce conclusions from events and data, that establish the consequences of them that direct the agent\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s process flow.}}]]></Comment>
         </Comments>
+    </Snapshot>
+    <Snapshot>
+        <Title>pre-sync Hanneke 2de ronde</Title>
+        <Date>2020-11-09 12:49:59 +0100</Date>
     </Snapshot>
 </Snapshots>

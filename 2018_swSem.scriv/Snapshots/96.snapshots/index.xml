@@ -2,7 +2,7 @@
 <Snapshots Version="1.0">
     <Snapshot>
         <Title>Pre-Sync External File Version</Title>
-        <Date>2020-05-22 08:55:13 +0200</Date>
+        <Date>2020-05-22 08:55:13 +0100</Date>
         <Comments>
             <Comment ID="BAFA031C-6FC3-46A7-8CBB-F6397E86C440" Collapsed="No" Color="0.996078 0.964706 0.737255"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
 {\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
@@ -26,7 +26,7 @@
     </Snapshot>
     <Snapshot>
         <Title>Pre-finale versie</Title>
-        <Date>2020-10-06 10:09:53 +0200</Date>
+        <Date>2020-10-06 10:09:53 +0100</Date>
         <Comments>
             <Comment ID="BAFA031C-6FC3-46A7-8CBB-F6397E86C440" Collapsed="No" Color="0.996078 0.964706 0.737255"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
 {\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
@@ -50,6 +50,10 @@
     </Snapshot>
     <Snapshot>
         <Title>Pre-Sync External File Version</Title>
-        <Date>2020-10-06 11:58:28 +0200</Date>
+        <Date>2020-10-06 11:58:28 +0100</Date>
+    </Snapshot>
+    <Snapshot>
+        <Title>Pre-sync Hanneke 2de ronde</Title>
+        <Date>2020-11-23 18:20:29 +0100</Date>
     </Snapshot>
 </Snapshots>

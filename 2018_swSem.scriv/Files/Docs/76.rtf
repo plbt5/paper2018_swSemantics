@@ -1,126 +1,109 @@
 {\rtf1\ansi\ansicpg1252\uc1\deff0
-{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}}
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}}
 {\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
 \paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
 \pgnrestart\pgnstarts0
-\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 In contemporary architectural paradigms, models are being used as first class citizens to the architectures, MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of a model when used for semantics. The first main characteristic, and already implied by the previous figures, is that a model is just a compound token. Where an atomic token refers to a particular entity in reality, a model refers to a particular reality, viz. the DoA. An in-depth treatise of models, meta-models, modelling languages and ontologies is given in [@Henderson-Sellers2012], providing the ground work for characterising models. These characteristics ground in three dichotomies, or modes, that pertain to a model, as well as the different meanings assigned to the term \\token\{model\}. We first summarise these four different distinctions before we can contrast the nature of two particular type of models: system models and ontological models. We consider these two model types as being most applied in software architecture and design, and particularly in conceptual modelling.}
+\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 In contemporary architectural paradigms, models are being used as first class citizens to the architectures; MDA, IEEE-1471 and ISP RM/ODP alike. It is therefore imperative to decide upon the major characteristics of the Domain Model that is used to capture semantics, and contrast these with the characteristics of the System Model that capture system specifications. The main differentiation is in their purpose; where the latter refers to the system under construction, the former refers to a particular reality: the DoA. The first main semiotic characteristic already implied by previous figures is that a model is just a compound token. Other modes of models [@Henderson-Sellers2012, p.33] ground in three dichotomies, and in the different meanings assigned to the term model. We consider these and other model characteristics from literature and specify their distinct use between Domain and System Models in \\cref\{tab:onto-versus-model\}.}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 * In type mode, models represent different categories that exist in the modelled subject, and bring the number of individual elements back to one universal characteristic that they share: their type. Also known as a classification abstraction, this is a surjective mapping from specific instances onto one set. This type-to-instance characteristic is fundamental for linguistic modelling (see further down). Contrarily, in token mode^[The term *token* in \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93token mode\u8221\'94 is completely unrelated to its use in \u8220\'93token node\u8221\'94 of the semiotic sign], models instantiate a }{\f1\fs24\b0\i1 subsumption}{\f0\fs24\b0\i0  relation, used to remove irrelevant distinctions between individuals in the modelled world, and therefore only reduces the granularity of the modelled subject. This type of relation is often used in ontological modelling. An example would be the relation about two humans sharing the same parents;}
-\par\plain {\f0\fs24\b0\i0 * The distinction between descriptive and prescriptive models is broadly accepted, where a prescriptive model is used to }{\f1\fs24\b0\i1 specify}{\f0\fs24\b0\i0  its subject, and a descriptive model is used to }{\f1\fs24\b0\i1 describe}{\f0\fs24\b0\i0  its subject. As explained by [@Gonzalez-Perez2007], a specification model generally takes a }{\f1\fs24\b0\i1 forward-looking}{\f0\fs24\b0\i0  role, specifying how the subject is supposed to be. A descriptive model, on the other hand, generally takes a }{\f1\fs24\b0\i1 backward-looking}{\f0\fs24\b0\i0  role and addresses the subject as it currently is, or once has been. We observe that the characteristics of the }{\f1\fs24\b0\i1 refers-to}{\f0\fs24\b0\i0  relation from \\cref\{}{\f0\fs24\b0\i0\cf1 fig:semiotic-triangles\}(b) }{\f0\fs24\b0\i0 become declarative for a forward-looking model whereas they become descriptive for a backward-looking model. Therefore, the refers-to relation is a causal relation, the direction of which is dependent on the model\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s characteristic. This is consequential for the location of the truth of a model: For forward-looking models their truth lies in their meta-models. Mutatis mutandis, the truth for backward-looking models lies in the entities they describe, viz. reality. This has consequences for, amongst others, the focus of the model, the objects of interest and the purpose of applying constraints. }
-\par\pard\plain \ri-16963\ql\ltrch\loch {\f0\fs24\b0\i0 * The distinction between ontological and linguistic mode of modelling was first coined by [@Atkinson2003]. It differentiates between linguistic instantiation (with a }{\f1\fs24\b0\i1 linguistic}{\f0\fs24\b0\i0  instance-of relation between a class and its objects) and ontological instantiation (with its }{\f1\fs24\b0\i1 ontological}{\f0\fs24\b0\i0  instance-of relation between Lassie as a Collie, Collie as a Breed, and Breed as a Biological Rank). Essentially, it is about the distinction in meaning of the }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  relation between the philosophical and meta-modelling viewpoint [@Eriksson2013a]. The philosophical point of view assumes a }{\f1\fs24\b0\i1 universals -- particulars}{\f0\fs24\b0\i0  dichotomy as identified in the ontological square (refer to \\cref\{fig:onto-square-and-sextet\}), instantiates an }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  relationship that is necessarily non-transitive. Furthermore, the individual entails a universal entity that supplies a conventional *principle of identity* for its instances [@Carraretto2012], viz. an agreed construct in accordance with which we establish whether two particulars are the same. Oppositely, the meta-modelling point of view assumes that the identity of an object is based on an inherent unique property of a thing that exists intrinsically, e.g., the very substance of a thing, that we only have to name. Furthermore, the }{\f1\fs24\b0\i1 instance-of}{\f0\fs24\b0\i0  relationship is considered transitive, and applies between adjacent levels of abstraction only;}
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 * A fourth distinction is in the term \\token\{model\} itself, which can have two distinct meanings to different authors in the field. Notably for the system architects, a \\token\{model\} refers to the diagram that can be drawn to specify the component of interest, e.g., a UML state diagram represents behaviour and describes the several states of a (part of a) system and how it changes by event occurrences. In this reading, the \\token\{model\} does not refer to the data itself but represents a blueprint of (here) an allowed behaviour. In contrast, in a more formal mathematical reading as put forward by [@Chomsky1957, p.13], the term \\token\{model\} refers to the theories that are allowed by the grammar of the modelling language on the language\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s alphabet. In this reading the \\token\{model\} *does* refer to the data itself. These two readings refer to different layers of abstraction and use, and should therefore not be confused. }
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 We summarise the distinction between ontologies and (forward-looking) models in \\cref\{tab:onto-versus-model\}.}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 --------------------------------------------------------------------------------------------------------------------------------}
-\par\plain {\f0\fs24\b0\i0 Characteristic       Ontological Model                                 System Model}
-\par\plain {\f0\fs24\b0\i0 -------------------- ------------------------------------------------- ---------------------------------------------------------}
-\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0 Type vs. tokens mode The main design is a type mode, carrying concepts Type mode and token mode can be applied independently }
-\par\plain {\f0\fs24\b0\i0                      and their relations in terms of Universals.       from each other, or merged into one model as well.}
-\par\plain {\f0\fs24\b0\i0                      Inclusion of individuals is very well possible, }
-\par\plain {\f0\fs24\b0\i0                      providing for a token mode as well.               }
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 $\\;$}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Backward vs.         Mainly backward looking.                          Mainly forward looking. Backward looking models often }
-\par\plain {\f0\fs24\b0\i0 forward mode                                                           apply a MOF-oriented ontological commitment or similar.}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 $\\;$}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Ontological          Can be added as Foundational Ontology, without    The meta-meta-model functions as poor ontological  }
-\par\plain {\f0\fs24\b0\i0 commitment           which a strict logical foundation remains which   commitment, implicitly and never intended to specify the    }
-\par\plain {\f0\fs24\b0\i0                      provides a neutral commitment, viz. none, only.   fundamental distinctions in reality the existence of  }
-\par\plain {\f0\fs24\b0\i0                                                                        which we commit to.                                }
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 $\\;$}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Ontological vs.      Ontological mode, viz. convention-based           Mainly linguistic mode, viz. intrinsically-based}
-\par\plain {\f0\fs24\b0\i0 linguistic mode      principle of identity and a non-transitive        principle of identity and a transitive instance-of}
-\par\plain {\f0\fs24\b0\i0                      instance-of relation.                             relation.      }
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 $\\;$}
-\par\plain \f0\fs24\b0\i0
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 Meaning of           Theories that are allowed by the grammar of the   A set of related diagrams.  }
-\par\plain {\f0\fs24\b0\i0 \\token\{model\}        modelling language.}
+\par\plain {\f0\fs24\b0\i0 --------------------------------------------------------------------------------------------------------------------------------------------------------------}
+\par\plain {\f0\fs24\b0\i0 Characteristic           Description                              Domain Model                                  System Model}
+\par\plain {\f0\fs24\b0\i0 ------------------------ ---------------------------------------- --------------------------------------------- ----------------------------------------------}
+\par\plain {\f0\fs24\b0\i0 Type vs. tokens mode     Type mode: captures universal            Always a type mode, carrying concepts and     Type mode and token mode can be applied  }
+\par\plain {\f0\fs24\b0\i0 [@Henderson-Sellers2012] characteristics as surjective mappings   their relations in terms of universals.       independently from each other for distinct  }
+\par\plain {\f0\fs24\b0\i0                          from specific instances onto one set.    Application of token mode might be included   models, but it essentially revolves around the}
+\par\plain {\f0\fs24\b0\i0                          Token mode: captures singular            for, e.g., reasoning or code lists, but       data, which demands for tokens mode models.            }
+\par\plain {\f0\fs24\b0\i0                          characteristics as granularity           remains of secondary importance.  }
+\par\plain {\f0\fs24\b0\i0                          abstractions only (subsumption).                                               }
 \par\pard\plain \ri-16974\ltrch\loch \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Logical assumption   Open world assumption (OWA), which maintains a    Closed world assumption (CWA), which maintains data }
-\par\plain {\f0\fs24\b0\i0                      semantic under-specification.                     consistency and query performance.}
+\par\plain {\f0\fs24\b0\i0 Backward vs.             Forward: Prescriptive, specifying how    Always backward looking.                      Mainly forward looking.   }
+\par\plain {\f0\fs24\b0\i0 forward mode             the subject is supposed to be. }
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 [@Henderson-Sellers2012] Backward: Descriptive, addresses an }
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0                          existing or past state of affairs.                                                   }
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Logic                Mainly description logic.                         MOF: conforms to itself; databases: first order predicate}
-\par\plain {\f0\fs24\b0\i0                                                                        logic}
+\par\plain {\f0\fs24\b0\i0 Ontological vs.          Linguistic instantiation (with an        Ontological mode, viz. convention-based       Linguistic mode, viz. }
+\par\plain {\f0\fs24\b0\i0 linguistic mode          instance-of relation between a class and principle of identity and a non-transitive    intrinsically-based identity label and a  }
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 [@Henderson-Sellers2012] its objects) versus ontological          instance-of relation.                         transitive instance-of relation.}
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0                          instantiation (with instance-of }
+\par\plain {\f0\fs24\b0\i0                          relations between universals and }
+\par\plain {\f0\fs24\b0\i0                          particulars).      }
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Source of truth      Reality                                           Meta-model}
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 Meaning of               ICT architects refer to the diagram that Theories that are allowed by the grammar      A set of related diagrams, e.g., a UML state                      }
+\par\plain {\f0\fs24\b0\i0 \\token\{model\}            is drawn, prescribing the system         of the modelling language. The model          diagram or class diagram, that prescribe how }
+\par\plain {\f0\fs24\b0\i0 [@Henderson-Sellers2012] component as blueprint for, e.g.,        refers to both the data and their schema.     the data should be structured and what  }
+\par\plain {\f0\fs24\b0\i0                          behaviour. More formal, it refers to                                                   behaviour should be applied.}
+\par\plain {\f0\fs24\b0\i0                          theories that are allowed by the grammar }
+\par\plain {\f0\fs24\b0\i0                          of the language [@Chomsky1957, p.13].                          }
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0 $\\;$}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0 Focus                    REFERENTIE                               Explanatory & understanding                   Constructive & realisation  }
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0 $\\;$}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Objects of interest      Characterising the model in terms of     The categories of being which are assumed to  The structures of propositions, viz.         }
+\par\pard\plain \ri-17053\ql\ltrch\loch {\f0\fs24\b0\i0 [@Carraretto2012]        its elements                             exist in a certain domain independently of    information, about a domain, characterising            }
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0                                                                   particular information demands.               a certain information demand as one design }
+\par\plain {\f0\fs24\b0\i0                                                                                                                 structure among many possible ones.}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Truth validation     Interpretation function                           MOF Reflection}
+\par\plain {\f0\fs24\b0\i0 Ontological              Refer to previous section.               Can be added as Foundational Ontology,        The meta-meta-model functions as    }
+\par\plain {\f0\fs24\b0\i0 commitment (OC)                                                   without which a strict logical foundation     ontological commitment, which was never     }
+\par\plain {\f0\fs24\b0\i0                                                                   remains which provides a neutral commitment,  intended to specify the fundamental   }
+\par\plain {\f0\fs24\b0\i0                                                                   viz. none, only.                              distinctions in reality to commit to.  }
+\par\plain {\f0\fs24\b0\i0                                                                                                                 Instead, a MOF-oriented OC commits to an }
+\par\plain {\f0\fs24\b0\i0                                                                                                                 object-oriented view which, essentially,  }
+\par\plain {\f0\fs24\b0\i0                                                                                                                 acknowledges a Turing machine.}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Focus                Explanatory & understanding                       Constructive & realisation  }
+\par\plain {\f0\fs24\b0\i0 Model foundation         Formalisation of the model.              Logic, particularly description logic. Using  First order predicate logic with Closed world }
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 [@Henderson-Sellers2012]                                          Open world assumption (OWA), which maintains  assumption (CWA), which maintains data  }
+\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0                                                                   a semantic under-specification.               consistency and query performance (databases).}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Type of Typing       \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93descriptive typing\u8221\'94[^DT], i.e., membership of    \u8220\'93Nominal typing\u8221\'94\\footref\{fn:kuhne\}, explicit typing                                                      }
-\par\plain {\f0\fs24\b0\i0                      an instance to type `T` is only dependent on      relationships between individuals and their types: names  }
-\par\plain {\f0\fs24\b0\i0                      whether or not it has properties that have been   are significant and subtyping is explicitly declared. }
-\par\plain {\f0\fs24\b0\i0                      deemed necessary by convention: If it walks like  Intentions are implicit by name, extensions are  }
-\par\plain {\f0\fs24\b0\i0                      a duck, talks like a duck and swims like a duck,  explicit enumerations of type incarnation. }
-\par\plain {\f0\fs24\b0\i0                      it \\emph\{is\} a duck. An explicit equivalence  }
-\par\plain {\f0\fs24\b0\i0                      relation is then established between extension  }
-\par\plain {\f0\fs24\b0\i0                      and intention.}
+\par\plain {\f0\fs24\b0\i0 Purpose of constraints                                            Axioms constrain the possible interpretations Constraints enforce integrity of the data,  }
+\par\plain {\f0\fs24\b0\i0                                                                   of theories, and scope the reasoning.         and optimise processing performance.}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Constrain purpose    Axioms constrain the possible interpretations,    Constraints enforce integrity of the data, and are used }
-\par\plain {\f0\fs24\b0\i0                      and scope the automated reasoning.                to optimise processing performance}
+\par\plain {\f0\fs24\b0\i0 Source of truth          The truth of a statement from the model  Reality                                       Meta-model}
+\par\plain {\f0\fs24\b0\i0 [@Muller2012, p.349]     must be found in what it refers to.}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 $\\;$}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Objects of interest  The categories of being which are assumed to      The structures of propositions, viz. information, about a        }
-\par\plain {\f0\fs24\b0\i0                      exist in a certain domain independently of        domain and to characterise a certain information demand.          }
-\par\plain {\f0\fs24\b0\i0                      particular information demands                    The goal of the information level is to define one design  }
-\par\plain {\f0\fs24\b0\i0                                                                        structure among the many possible ones.}
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 --------------------------------------------------------------------------------------------------------------------------------}
+\par\plain {\f0\fs24\b0\i0 Truth validation         The way to establish the truth of a      Interpretation function                       MOF Reflection}
+\par\plain {\f0\fs24\b0\i0                          statement from the model}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 $\\;$}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 Type of Typing           Descriptive or nominal typing            Descriptive typing, i.e., membership of       Nominal typing, explicit relationships                                                      }
+\par\plain {\f0\fs24\b0\i0 [@Kuhne2018]                                                      an instance to a type is only dependent on    exist between individuals and their types:   }
+\par\plain {\f0\fs24\b0\i0                                                                   properties that are deemed necessary by       names are significant and subtyping is  }
+\par\plain {\f0\fs24\b0\i0                                                                   convention (duck-typing). An explicit         explicitly declared. Intentions are implicit   }
+\par\plain {\f0\fs24\b0\i0                                                                   equivalence relation between extension and    by name, extensions are explicit enumerations  }
+\par\plain {\f0\fs24\b0\i0                                                                   intention is then *derived*.                  of type incarnation.  }
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 --------------------------------------------------------------------------------------------------------------------------------------------------------------}
 \par\pard\plain \ri-16974\ltrch\loch \f0\fs24\b0\i0
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 Table: The main differences between an ontology and a (forward-looking) system model. \\label\{tab:onto-versus-model\}}
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 Table: The main differences between a domain model and a system model. \\label\{tab:onto-versus-model\}}
 \par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 Based on these model characteristics we now analyse how the nature of models influences the Domain Model. According to \\cref\{dp:reciprocity,dp:semantic-coherence\} the DoI should be represented by a data model and data processing model pair (\\cref\{def:atomic-semantic-monolith\}) that uses one single model as reference to both models in the semantic monolith. Since both the data and data processing models are intended as a representation of the DoA, their criterion for validity is necessarily grounded in reality and the objects of interest refer to things in the DoA. We therefore consider them backward-looking and, hence, both should allow for truth validation by interpretation function. Consequentially, the data and data processing \\token\{model\} are sets of theories that are constrained to limit the number of possible interpretations to correct ones only. Correctness, thus, refers to descriptive as opposed to nominal typing as the latter\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s correctness is established on implicit intentions that, due to the absence of a strict relation with its extensions, cannot be verified. According to \\cref\{dp:language-appropriateness\} each modelling language implies an ontological commitment, and since the Domain Model acts as vehicle for semantics, one better can select the ontological commitment that s most appropriate. Finally, the models\u8217\'92 focus and logical assumption are better suited in the semantic orientation with explanatory and open world characteristics than with constructive and closed world characteristics. In conclusion, we defend that the faithfulness of the Domain Model is facilitated more by ontological models than by system models. We formulate the following design principle to include the most important model characteristics:     }
+\par\plain {\f0\fs24\b0\i0 As explained by [@A\loch\af0\hich\af0\dbch\af0\uc1\u223\'DFmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualisation (conceptual modelling) of things." We similarly consider ontologies a necessary component to formally represent the DoI and faithfully refer to the DoA. Still, contemporary modelling frameworks yield meta-models that have a clear engineering focus which is very suitable for forward-looking, prescriptive (system) models. Based on these model characteristics and in relation with \\cref\{dp:reciprocity,dp:semantic-coherence,dp:language-appropriateness\} and \\cref\{def:atomic-semantic-monolith\} we conclude that the faithfulness of the Domain Model is facilitated much better when formulated as ontology than as a diagram-based system model. Oppositely, forward looking models fall short in considering and modelling system characteristics, and in conjunction with \\cref\{dp:language-appropriateness\} \\cref\{tab:onto-versus-model\} above provides ample arguments to support the complementary use of backward looking models to prescribe the design of the system under construction. We formulate \\cref\{dp:domain-faithfulness\} to include the most important model characteristics.     }
 \par\plain {\f0\fs24\b0\i0   }
 \par\pard\plain \ltrch\loch \f0\fs24\b0\i0
-\par\pard\plain \ri-8561\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}[Domain faithfulness principle]\\label\{dp:domain-faithfulness\}}
 \par\plain \f0\fs24\b0\i0
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 The faithfulness with which the Domain Model refers to the DoA demands the use of backward looking models that contain theories as allowed by the grammar of the modelling language, and apply token and ontological mode of modelling. \\\\}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\textbf\{Type of information:\} business \\\\}
-\par\plain {\f0\fs24\b0\i0 \\textbf\{Quality attributes:\} ... \\\\}
-\par\plain {\f0\fs24\b0\i0 \\textbf\{Rationale:\}}
-\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
-\par\plain {\f0\fs24\b0\i0   \\item A software agent cannot act effectively nor validly without a model that faithfully refers the DoA;  }
-\par\plain {\f0\fs24\b0\i0   \\item The faithfulness of the model is dependent on its correct interpretation in the DoI;}
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0   \\item System models cannot take the DoA as their explicit source of truth.}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\end\{enumerate\}}
-\par\plain {\f0\fs24\b0\i0 \\textbf\{Implications:\} The Domain Model}
-\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
-\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0   \\item applies an interpretation function to the DoI that finds the source of truth in the reality of the DoA;   }
-\par\plain {\f0\fs24\b0\i0   \\item applies descriptive typing as opposed to nominal typing;   }
-\par\plain {\f0\fs24\b0\i0   \\item applies the logical open world assumptions, leaving unknown facts unknown; }
-\par\plain {\f0\fs24\b0\i0   \\item chooses the best applicable ontological commitment;}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0   \\item requires additional constraints and rules, viz. process tokens, to compensate for the inherent limitations of the interpretation function.  }
-\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}  }
-\par\plain {\f0\fs24\b0\i0 \\end\{mmdp\}}
-\par\plain \f0\fs24\b0\i0
-\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 As explained by [@A\loch\af0\hich\af0\dbch\af0\uc1\u223\'DFmann2006]: "Specification models focus on the specification, control, and generation of systems; ontologies focus on description and conceptualisation (conceptual modelling) of things." We similarly consider ontologies a necessary component to formally represent the DoI and faithfully refer to the DoA. Still, contemporary modelling frameworks yield meta-models that have a clear engineering focus which is very suitable for forward-looking, prescriptive (system) models. These meta-models are de-facto used as modelling language to formulate diagrams, and despite their appropriateness in support of engineering principles and decisions that need to be made, they give rise to semantics that fall short for backward-looking, descriptive models. At the same time, forward looking models fall short in considering and modelling system characteristics. Hence, committing to \\cref\{dp:reciprocity,dp:semantic-coherence,dp:language-appropriateness,dp:domain-faithfulness\} results in the need to apply both ontological and system models. This leaves the question of the formal relationship that exist between them: how to characterise the relationship between the Domain Model with its ASM\u8217\'92s and those models of the agent that are external to the Domain Models, collectively denoted as the System Model. This particular notion on architectural consistency will be addressed in the next section.}
+\par\pard\plain \ri-16974\ql\ltrch\loch {\f0\fs24\b0\i0 This leaves the question of the formal relationship that exist between them: how to characterise the relationship between the Domain Model with its ASM\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s and those models of the agent that are external to the Domain Models, collectively denoted as the System Model. This particular notion on architectural consistency will be addressed in the next section.}
 \par\plain \f0\fs24\b0\i0
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 <!-- page additions -->}
 \par\plain \f0\fs24\b0\i0
 \par\plain {\f0\fs24\b0\i0 [def:ontoMDA]: src\\images\\OntosInMDE.png \{#fig:OntosInMDE  width=80%\}}
-\par\pard\plain \ri-16974\ltrch\loch {\f0\fs24\b0\i0 [^DT]: Coined by \\cite\{Kuhne2018\}\\label\{fn:kuhne\}}
-\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-16974\ltrch\loch \f0\fs24\b0\i0
 \par\pard\plain \ltrch\loch \f0\fs24\b0\i0}
