@@ -5,10 +5,8 @@
 \pgnrestart\pgnstarts0
 \pard\plain \ltrch\loch {\f0\fs24\b0\i0 We define the following Design Principles. }
 \par\plain \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\begin\{table\}}
 \par\plain {\f0\fs24\b0\i0 \\begin\{xltabular\}[l]\{\\linewidth\}\{@\{\} p\{0.09\\linewidth\} >\{\\bfseries\\small\\raggedright\\arraybackslash\}p\{0.3\\linewidth\} >\{\\small\\raggedright\\arraybackslash\}X @\{\}\}}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 \\caption\{The nine design principles \\label\{tab:dps\}\} \\\\}
 \par\plain {\f0\fs24\b0\i0 \\toprule}
 \par\plain {\f0\fs24\b0\i0 Design Principle & \\normalfont\{Title\} & Description \\\\ \\cmidrule(r)\{1-2\} \\cmidrule(l)\{3-3\} }
 \par\plain {\f0\fs24\b0\i0 \\endfirsthead}
@@ -22,13 +20,14 @@
 \par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:comprehension-behaviour\} \\end\{mmdp\} & Separate comprehension from behaviour & Make a distinction between operations that follow from the inferential model (data processing) and those that realise actions in order to achieve a certain goal of the application. \\\\}
 \par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:reciprocity\}\\end\{mmdp\} & Semantic reciprocity principle & In software, semantics reduces to the reciprocity between data and software code. \\\\}
 \par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:atomicity\}\\end\{mmdp\} & Semantic atomicity principle & }{\f0\fs24\b0\i0  A single ASM can never be smaller than a single $\\pair\{\\token\{C\}; \\token\{P\}\}$ pair, and must never be larger than to only include (i) overlapping $\\pair\{\\token\{C\}; \\token\{P\}\}$ pairs, and (ii) concepts $C\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92$ that are related by $r$ to an already included concept $C$, i.e., $C -r- C\u8217\'92$, if and only if individuals from $-r- C\u8217\'92$ impact the validity of the pragmatic meaning of that ASM.}{\f0\fs24\b0\i0  \\\\}
-\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:semantic-coherence\}\\end\{mmdp\} & Semantic coherence principle & Establish explicit coherence between the semantic meaning and the pragmatic meaning and separate it in a distinct container, denoted the \\emph\{atomic semantic monolith\}. The coherence of an ASM is directly dependent on maintaining an accurate outcome of the operations that are applied to the S-model by the P-model. The ASM is \\emph\{complete\} when (a) each concept from the S-model is being addressed by the P-model, and (b) each concept that can be derived by the P-model has been defined by the S-model. The ASM is \\emph\{consistent\} when the explicit context that is considered by the P-model is defined by concepts from the S-model. The level of coherence is considered maximal when the reciprocity is complete and consistent. }{\f0\fs24\b0\i0 Formal semantics provides for the principled, single point of reference for both the S- and P-models.}{\f0\fs24\b0\i0 \\\\}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:language-appropriateness\}\\end\{mmdp\} & Language appropriateness principle & Modelling the semantics of an application demands an explicit choice on modelling language based on the appropriateness of its underlying ontological commitment for the domain of application.\\\\}
+\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:semantic-coherence\}\\end\{mmdp\} & Semantic coherence principle & Establish explicit coherence between the semantic meaning and the pragmatic meaning and separate it in a distinct container, denoted the \\emph\{atomic semantic monolith\}. The coherence of an ASM is directly dependent on maintaining an accurate outcome of the operations that are applied to the S-model by the P-model. The ASM is \\emph\{complete\} when (a) each concept from the S-model is being addressed by the P-model, and (b) each concept that can be derived by the P-model has been defined by the S-model. The ASM is \\emph\{consistent\} when the explicit context that is considered by the P-model is defined by concepts from the S-model. The level of coherence is considered maximal when the reciprocity is complete and consistent.\\\\}
+\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:language-appropriateness\}\\end\{mmdp\} & Language appropriateness principle & Modelling the semantics of an application demands an explicit choice on modelling language based on the appropriateness of its underlying ontological commitment for the domain of application.\\\\}
 \par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:domain-faithfulness\}\\end\{mmdp\} & Domain faithfulness principle & The faithfulness with which the Domain Model refers to the DoA demands the use of backward looking models that contain theories as allowed by the grammar of the modelling language, and apply type mode and ontological mode of modelling. \\\\}
 \par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:semantic-grounding\}\\end\{mmdp\} & Semantic grounding principle & All models that are part of the System Model and refer to the DoA, are grounded in the Domain Model. \\\\}
 \par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:three-faceted-services\}\\end\{mmdp\} & 3-faceted services principle & The Domain model provides services that address its database facet, domain knowledge facet and generic knowledge facet. \\\\}
 \par\plain {\f0\fs24\b0\i0 \\bottomrule}
 \par\plain {\f0\fs24\b0\i0 \\end\{xltabular\}}
-\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\caption\{The nine design principles \\label\{tab:dps\}\}}
+\par\plain {\f0\fs24\b0\i0 \\end\{table\}}
 \par\plain \f0\fs24\b0\i0
 \par\plain \f0\fs24\b0\i0}

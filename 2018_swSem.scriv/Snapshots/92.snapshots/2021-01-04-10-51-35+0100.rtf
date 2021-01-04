@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 CourierNewPSMT;}{\f1\fmodern\fcharset0\fprq2 CourierNewPS-ItalicMT;}{\f2\fmodern\fcharset0\fprq2 Sitka 57,Cochin,serif;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\pgnrestart\pgnstarts0
+\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 We require that the domain model - system model (DM-SM) relationship is not allowed to break the principle of separation of concerns (\\cref\{semiotic-and-pragmatic-concerns,domain-appropriateness-concerns\}). }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 It is important to differentiate between the }{\f1\fs24\b0\i1 ontological}{\f0\fs24\b0\i0  relationships such as \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93motherhood\u8221\'94 or \u8220\'93being a vehicle\u8221\'94, and the }{\f1\fs24\b0\i1 meta-modelling}{\f0\fs24\b0\i0  relationships such as generalisation, instantiation, classification and conformance. Ontological relationships do not apply when addressing the DM-SM relation, nor do the meta-modelling relationships [@Henderson-Sellers2012]. The concern on architectural consistency demands that the semantics of a concept referring to the DoA remain consistent irrespective of the model using it. Following from \\cref\{def:semantics\} and \\cref\{}{\f2\fs24\b0\i0 dp:semiotic-pragmatic}{\f0\fs24\b0\i0 \}, this implies that not only the data tokens but also the process tokens must be specified in the Domain Model before use in the System Model. Any model from the System Model shall not tamper with (or introduce  new) meaning, semantic or pragmatic alike. Only by *referring to facts* as opposed to deriving them, the System Model enables the Domain Model to assure that the agent applies one single conceptualisation. This allows the Domain Model to maintain a reflection on the state of affairs exclusively, for the System Model to interact with reality consistently. So despite the existence of the Grounding Problem [@Harnad1990] the Domain Model must provide a form of semantic grounding for the System Model. We introduce *token* and *model* grounding as follows: }
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 \\begin\{mmdef\}[Token grounding]\\label\{def:token-grounding\}}
+\par\plain {\f0\fs24\b0\i0 Consider two tokens $\\token\{t\} \\in \\token\{m\}$, $\\token\{t\}\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92\\in \\token\{m\}\u8217\'92$ from two models $\\token\{m\} \\sqsubset M_d$, $\\token\{m\}\u8217\'92 \\sqsubset M_s$ that are part of the Domain Model $M_d$ and System Model $M_s$ respectively. Assume that token $\\token\{t\}\u8217\'92$ refers to entity $e$ in the DoA (carries semantic or pragmatc meaning). The \\emph\{token grounding\} relation exists between token $\\token\{t\}\u8217\'92$ and token $\\token\{t\}$, \\emph\{iff\} token $\\token\{t\}\u8217\'92$ is specified in the Domain Model, denoted as $\\token\{t\}\u8217\'92 \\Ground\{\\token\{t\}\}$: }
+\par\plain {\f0\fs24\b0\i0 \\begin\{equation\}}
+\par\plain {\f0\fs24\b0\i0 \\token\{t\}\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92 \\in \\token\{m\}\u8217\'92, \\; \\mu(\\token\{t\}\u8217\'92) = e \\; \\land \\; \\exists \\token\{t\} \\in \\token\{m\} \\; : \\; \\token\{t\}\u8217\'92 \\equiv \\token\{t\} }
+\par\plain {\f0\fs24\b0\i0 \\end\{equation\}}
+\par\plain {\f0\fs24\b0\i0 where:}
+\par\plain {\f0\fs24\b0\i0 \\begin\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0   \\item $\\token\{m\}\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92 \\sqsubset M_s, \\; \\token\{m\} \\sqsubset M_d, \\; e \\sqsubset DoA$}
+\par\plain {\f0\fs24\b0\i0   \\item the colon $:$ is pronounced as \\emph\{such that\}}
+\par\pard\plain \ri-11066\ql\ltrch\loch {\f0\fs24\b0\i0   \\item $\\mu$ denotes the \\emph\{refers to\} relation as depicted in \\cref\{}{\f0\fs24\b0\i0\cf1 fig:semiotic-triangles}{\f0\fs24\b0\i0 \}(b)}
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0   \\item $\\equiv$ denotes \\emph\{syntactically identical\}}
+\par\plain {\f0\fs24\b0\i0 \\end\{enumerate\}}
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdef\}[Model grounding]\\label\{def:model-grounding\}}
+\par\plain {\f0\fs24\b0\i0 Assume two models $\\token\{m\} \\sqsubset M_d$, $\\token\{m\}\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92 \\sqsubset M_s$ that are part of the Domain Model \\token\{$M_d$\} a d System Model \\token\{$M_s$\}, respectively. The \\emph\{model grounding\} relation exists between $\\token\{m\}\u8217\'92$ and $\\token\{m\}$ \\emph\{iff\} all tokens $\\token\{t\}\u8217\'92 \\in \\token\{m\}\u8217\'92$ that refer to the DoA are grounded by tokens from $\\token\{m\}$, denoted as $\\token\{m\}\u8217\'92 \\Ground\{\\token\{m\}\}$: }
+\par\plain {\f0\fs24\b0\i0 \\begin\{equation\}}
+\par\plain {\f0\fs24\b0\i0 \\forall \\token\{t\}\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92 \\in \\token\{m\}\u8217\'92, \\; \\exists e \\in DoA, \\; \\mu(\\token\{t\}\u8217\'92) = e \\; : \\; \\exists \\token\{t\} \\in \\token\{m\} \\; \\land \\; \\token\{t\}\u8217\'92 \\Ground\{\\token\{t\}\}  }
+\par\plain {\f0\fs24\b0\i0 \\end\{equation\}}
+\par\plain {\f0\fs24\b0\i0 where:  $\\; \\token\{m\}\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92 \\sqsubset M_s, \\; \\token\{m\} \\sqsubset M_d, \\; e \\sqsubset DoA$}
+\par\plain {\f0\fs24\b0\i0 \\end\{mmdef\}}
+\par\plain \f0\fs24\b0\i0
+\par\plain {\f0\fs24\b0\i0 We consider token and model grounding necessary and sufficient conditions to consolidate architectural consistency on semantics (\\cref\{def:semantics\}). We formulate \\cref\{dp:semantic-grounding\} to consolidate the separation between semantic and system concerns as represented by the Domain and System models, respectively.}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\plain \f0\fs24\b0\i0
+\par\pard\plain \ri-10760\ltrch\loch \f0\fs24\b0\i0}
