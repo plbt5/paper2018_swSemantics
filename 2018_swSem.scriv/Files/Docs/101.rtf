@@ -3,32 +3,232 @@
 {\colortbl;\red0\green0\blue0;\red255\green255\blue255;}
 \paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
 \pgnrestart\pgnstarts0
-\pard\plain \ltrch\loch {\f0\fs24\b0\i0 We define the following Design Principles. }
+\pard\plain \ltrch\loch {\f0\fs24\b0\i0 Throughout this document, the following Design Principles have been defined. }
 \par\plain \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 \\begin\{xltabular\}[l]\{\\linewidth\}\{@\{\} p\{0.09\\linewidth\} >\{\\bfseries\\small\\raggedright\\arraybackslash\}p\{0.3\\linewidth\} >\{\\small\\raggedright\\arraybackslash\}X @\{\}\}}
-\par\plain \f0\fs24\b0\i0
-\par\plain {\f0\fs24\b0\i0 \\caption\{The nine design principles \\label\{tab:dps\}\} \\\\}
-\par\plain {\f0\fs24\b0\i0 \\toprule}
-\par\plain {\f0\fs24\b0\i0 Design Principle & \\normalfont\{Title\} & Description \\\\ \\cmidrule(r)\{1-2\} \\cmidrule(l)\{3-3\} }
-\par\plain {\f0\fs24\b0\i0 \\endfirsthead}
-\par\plain {\f0\fs24\b0\i0 \\multicolumn\{3\}\{@\{\}l\}\{\\ldots\\ \\tiny Continuation\}\\\\ \\midrule}
-\par\plain {\f0\fs24\b0\i0 Design Principle & \\normalfont\{Title\} & Description \\\\ \\cmidrule(r)\{1-2\} \\cmidrule(l)\{3-3\}}
-\par\plain {\f0\fs24\b0\i0 \\endhead}
-\par\plain {\f0\fs24\b0\i0 \\midrule\\multicolumn\{3\}\{r@\{\}\}\{\\tiny Continued \\ldots\}\\\\}
-\par\plain {\f0\fs24\b0\i0 \\endfoot}
-\par\plain {\f0\fs24\b0\i0 \\midrule\\endlastfoot}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:semiotic-pragmatic\}\\end\{mmdp\} & Semiotic-pragmatic principle & Engineering semantics in software is not limited to the semantics of data, i.e., the semantic meaning, but includes the semantics of data processing code, i.e., the pragmatic meaning, as well. \\\\}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:comprehension-behaviour\} \\end\{mmdp\} & Separate comprehension from behaviour & Make a distinction between operations that follow from the inferential model (data processing) and those that realise actions in order to achieve a certain goal of the application. \\\\}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:reciprocity\}\\end\{mmdp\} & Semantic reciprocity principle & In software, semantics reduces to the reciprocity between data and software code. \\\\}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:atomicity\}\\end\{mmdp\} & Semantic atomicity principle & }{\f0\fs24\b0\i0  A single ASM can never be smaller than a single $\\pair\{\\token\{C\}; \\token\{P\}\}$ pair, and must never be larger than to only include (i) overlapping $\\pair\{\\token\{C\}; \\token\{P\}\}$ pairs, and (ii) concepts $C\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92$ that are related by $r$ to an already included concept $C$, i.e., $C -r- C\u8217\'92$, if and only if individuals from $-r- C\u8217\'92$ impact the validity of the pragmatic meaning of that ASM.}{\f0\fs24\b0\i0  \\\\}
-\par\pard\plain \ri-16872\ql\ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:semantic-coherence\}\\end\{mmdp\} & Semantic coherence principle & Establish explicit coherence between the semantic meaning and the pragmatic meaning and separate it in a distinct container, denoted the \\emph\{atomic semantic monolith\}. The coherence of an ASM is directly dependent on maintaining an accurate outcome of the operations that are applied to the S-model by the P-model. The ASM is \\emph\{complete\} when (a) each concept from the S-model is being addressed by the P-model, and (b) each concept that can be derived by the P-model has been defined by the S-model. The ASM is \\emph\{consistent\} when the explicit context that is considered by the P-model is defined by concepts from the S-model. The level of coherence is considered maximal when the reciprocity is complete and consistent. }{\f0\fs24\b0\i0 Formal semantics provides for the principled, single point of reference for both the S- and P-models.}{\f0\fs24\b0\i0 \\\\}
-\par\pard\plain \ltrch\loch {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:language-appropriateness\}\\end\{mmdp\} & Language appropriateness principle & Modelling the semantics of an application demands an explicit choice on modelling language based on the appropriateness of its underlying ontological commitment for the domain of application.\\\\}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:domain-faithfulness\}\\end\{mmdp\} & Domain faithfulness principle & The faithfulness with which the Domain Model refers to the DoA demands the use of backward looking models that contain theories as allowed by the grammar of the modelling language, and apply type mode and ontological mode of modelling. \\\\}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:semantic-grounding\}\\end\{mmdp\} & Semantic grounding principle & All models that are part of the System Model and refer to the DoA, are grounded in the Domain Model. \\\\}
-\par\plain {\f0\fs24\b0\i0 \\begin\{mmdp\}\\label\{dp:three-faceted-services\}\\end\{mmdp\} & 3-faceted services principle & The Domain model provides services that address its database facet, domain knowledge facet and generic knowledge facet. \\\\}
-\par\plain {\f0\fs24\b0\i0 \\bottomrule}
-\par\plain {\f0\fs24\b0\i0 \\end\{xltabular\}}
-\par\plain \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0
-\par\plain \f0\fs24\b0\i0}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0
+\par\pard\plain \ltrch\loch {\f0\fs24 \\noindent}
+\par\plain {\f0\fs24 \\afterpage\{%}
+\par\plain {\f0\fs24     \\clearpage% Flush earlier floats (otherwise order might not be correct)}
+\par\plain {\f0\fs24     \\thispagestyle\{empty\}% empty page style (?)}
+\par\plain {\f0\fs24     \\begin\{landscape\}% Landscape page}
+\par\plain {\f0\fs24         \\centering % Center table}
+\par\plain \f0\fs24
+\par\pard\plain \ltrch\loch {\f0\fs24 \\def\\arraystretch\{0\} }
+\par\pard\plain \ltrch\loch {\f0\fs24 \\begin\{xltabular\}[l]\{\\linewidth\}\{@\{\} >\{\\small\\raggedright\\arraybackslash\}p\{0.47\\linewidth\} >\{\\small\\raggedright\\arraybackslash\}X @\{\}\}}
+\par\plain \f0\fs24
+\par\plain {\f0\fs24 \\caption\{The nine design principles; format and structure according to \\cite\{Greefhorst2011\} \\label\{tab:dps\}\} \\\\}
+\par\plain {\f0\fs24 \\toprule}
+\par\plain {\f0\fs24 \\multicolumn\{1\}\{@\{\}l\}\{Design Principle\} & \\multicolumn\{1\}\{l\}\{Dimensions \\& Attributes\} \\\\ }
+\par\plain {\f0\fs24 \\multicolumn\{1\}\{l\}\{Rationale\} & \\multicolumn\{1\}\{l\}\{\\quad Implications\} \\\\ \\cmidrule(r)\{1-1\} \\cmidrule(l)\{2-2\}}
+\par\plain {\f0\fs24 \\endfirsthead}
+\par\plain {\f0\fs24 \\multicolumn\{2\}\{@\{\}l\}\{\\ldots\\ \\tiny Continuation\}\\\\ \\midrule}
+\par\plain {\f0\fs24 \\multicolumn\{1\}\{@\{\}l\}\{Design Principle\} & \\multicolumn\{1\}\{l\}\{Dimensions \\& Attributes\} \\\\ }
+\par\plain {\f0\fs24 \\multicolumn\{1\}\{l\}\{Rationale\} & \\multicolumn\{1\}\{l\}\{\\quad Implications\} \\\\ \\cmidrule(r)\{1-1\} \\cmidrule(l)\{2-2\}}
+\par\plain {\f0\fs24 \\endhead}
+\par\plain {\f0\fs24 \\midrule\\multicolumn\{2\}\{r@\{\}\}\{\\tiny Continued \\ldots\}\\\\}
+\par\plain {\f0\fs24 \\endfoot}
+\par\plain {\f0\fs24 \\endlastfoot}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:semiotic-pragmatic\}\{\\bfseries Semiotic-pragmatic principle:\}}
+\par\plain {\f0\fs24 \\quad Engineering semantics in software is not limited to the semantics of data, i.e., the semantic meaning, but includes the semantics of data processing code, i.e., the pragmatic meaning, as well.}
+\par\plain {\f0\fs24 \\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] Suitability, Understandability, Operability, Explicitness, Stability, Reusability;}
+\par\plain {\f0\fs24 \\end\{description\} \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item Semiotic and pragmatic theories are widely accepted to influence semantics;}
+\par\plain {\f0\fs24 \\item By acting on semiotic principles alone, semantics is defied its pragmatic meaning;}
+\par\plain {\f0\fs24 \\item The data are the vehicle that carries the semantic meaning;}
+\par\plain {\f0\fs24 \\item The data processing code is the vehicle that carries the pragmatic meaning. }
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item To get control over both the semantic meaning and the pragmatic meaning is a necessary prerequisite for controlling semantics.}
+\par\plain {\f0\fs24 \\end\{enumerate\} \\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:comprehension-behaviour\}\{\\bfseries Separate comprehension from behaviour:\}}
+\par\plain {\f0\fs24 \\quad Make a distinction between operations that follow from the inferential model (data processing) and those that realise actions in order to achieve a certain goal of the application.\\end\{mmdp\} }
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business, Application;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] (Semantic) accuracy, Reusability, Consistency;}
+\par\plain {\f0\fs24 \\end\{description\} \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item The inferential model describes the comprehension process with which the semantic meaning is positioned into a specific context of use; }
+\par\plain {\f0\fs24 \\item The behavioural perspective refers to the capability of the software agent to act and how it achieves the desired end result;}
+\par\plain {\f0\fs24 \\item The behavioural perspective operates on the basis, and under the influence, of a well-defined state of affairs;}
+\par\plain {\f0\fs24 \\item Although both the comprehension and the behaviour share being dynamic, they are complementary to each other since the former selects the particular behaviour that applies.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item Separating the inference model from the behavioural perspective allows for transparency between both: neither the behavioural perspective needs to know how comprehension is being established, nor does the inference model needs to know the consequences of a certain state of affairs;}
+\par\plain {\f0\fs24 \\item The semantic model can now emerge as a strict coupling between the semantic meaning and the pragmatic meaning, which then becomes the one and only component that represents one particular perspective with a particular interpretation on the domain of application;}
+\par\plain {\f0\fs24 \\item The state of affairs represent the main interface between the semantic model and the behavioural models;}
+\par\plain {\f0\fs24 \\item Any condition or conclusion or specific piece of information that is required by the behavioural models, must be addressable as state of affairs that is to be delivered, timely, by the semantics model;}
+\par\plain {\f0\fs24 \\item Being a component of its own allows semantics to become subject to quality criteria, particularly on accuracy, consistency, evolution, maintainability and reusability. }
+\par\plain {\f0\fs24 \\end\{enumerate\} \\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:reciprocity\}\{\\bfseries Semantic reciprocity principle:\}\\quad Semantics in software are necessarily reduced to, and emerge from, the reciprocity between the semantic meaning (data) and the pragmatic meaning (data processing code); \\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] Functionality, Reliability, Usability, Maintainability, Portability;}
+\par\plain {\f0\fs24 \\end\{description\}\\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item Software essentially represents a token-based machine without the ability to close the gap with entities in reality; }
+\par\plain {\f0\fs24 \\item Since software inherently process data, the reciprocity between data and data processing code applies necessarily;}
+\par\plain {\f0\fs24 \\item By acting on data (tokens), combining them and producing new data (tokens), data processing creates, updates or deletes data and, hence, indirectly influences the semantic meaning. Vice versa, by being processed by data processing code, different input data produce different outcome. Hence, data enforce a particular pragmatic meaning to apply;}
+\par\plain {\f0\fs24 \\item The software agent cannot properly accomplish its role as semantic vehicle when the reciprocity between the data and how to process them is disturbed, viz. apply different background knowledge. }
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item Maintaining, under all circumstances, a valid reciprocity between data and data processing is a necessary prerequisite for an agent to properly act as semantic vehicle;}
+\par\plain {\f0\fs24 \\item A software agent reflects semantics by its particular way of operating on the data.}
+\par\plain {\f0\fs24 \\end\{enumerate\} \\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:atomicity\}\{\\bfseries Semantic atomicity principle:\}\\quad A single ASM can never be smaller than a single $C; P$ pair, and must never be larger than to only include (i) overlapping pairs, and (ii) concepts $C\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92$ that are related by $r$ to an already included concept $C$, i.e., $C -r- C\u8217\'92$, if and only if individuals from $-r- C\u8217\'92$ impact the validity of the pragmatic meaning of that ASM. \\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business, Application, Data;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] Suitability, Accuracy, Interoperability, Compliance, Traceability; Maturity; Understandability, Operability, Clarity; Analysability, Changeability, Manageability; Reusability;}
+\par\plain {\f0\fs24 \\end\{description\}}
+\par\plain {\f0\fs24 \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item Considering that}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[nosep]}
+\par\plain {\f0\fs24 \\item It doesn\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92t make sense to refer to entities both on a higher as well as on a lower granular level than germane entities;}
+\par\plain {\f0\fs24 \\item The relevance for germane entities are only found in their pragmatic meaning;}
+\par\plain {\f0\fs24 \\item The reciprocity principle is based on a pair of pragmatic and semantic meaning, $\\pair\{P; C\}$, that together constitute an ASM;}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 \\item we conclude that the ASM can never be smaller than a single $\\pair\{P; C\}$ pair. }
+\par\plain {\f0\fs24 \\item And considering that }
+\par\plain {\f0\fs24 \\begin\{enumerate\}[nosep]}
+\par\plain {\f0\fs24 \\item overlapping $\\pair\{P; C\}$ pairs influence their mutual pragmatic meanings;}
+\par\plain {\f0\fs24 \\item concepts $C\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92$ that are related by $r$ to an already included concept $C$ might influence the pragmatic meaning that requires $C$;}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 \\item the ASM can never be larger than what emerges when including overlapping $\\pair\{P; C\}$ pairs as well as $C -r- C\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92$ relations and concepts that potentially influence the pragmatic meaning for $C$.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item The pragmatic meaning is the primary driver for the atomicity of an ASM;}
+\par\plain {\f0\fs24 \\item The key differentiator for including a concept in an ASM relates to whether the DoA allows a state of affairs with it that would influence the validity of the pragmatic meaning, or not;}
+\par\plain {\f0\fs24 \\item ASM\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s that share a (coupling) concept belong to one ASM;}
+\par\plain {\f0\fs24 \\item Each and every semantic meaning as well as each and every pragmatic meaning that partake in a reciprocity pair must be part of an ASM;}
+\par\plain {\f0\fs24 \\item By token of the atomicity principle, the introduction of a new SoA, i.e., data, will address one ASM only. This facilitates the potential to design a single, non-interruptible process for one single ASM to determine the consequences from a new state of affairs. In this way the semantic vehicle can stabilise before taking subsequent actions, or new states of affair, into account. }
+\par\plain {\f0\fs24 \\end\{enumerate\} \\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:semantic-coherence\}\{\\bfseries Semantic coherence principle:\}\\quad Establish explicit coherence between the semantic meaning (S-model) and the pragmatic meaning (P-model) and separate both in a distinct container, denoted the \\emph\{atomic semantic monolith\}.\\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] (Semantic) accuracy, Reusability, Consistency;}
+\par\plain {\f0\fs24 \\end\{description\} \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item The software agents must ensure a homomorphic relationship \\footnote\{In mathematics, a relationship $R: D \\to C$ is called a \\emph\{homomorphism\} if $R$ represents a structure-preserving mapping or function between two algebraic structures of the same type.\} between an ASM and the reality that it refers to;}
+\par\plain {\f0\fs24 \\item The coherence of an ASM is directly dependent on maintaining an accurate outcome of the operations that are applied to the S-model by the P-model. Uniting truth in one single \\emph\{unique reference\} against which expressions from both models are verified, is considered mandatory;}
+\par\plain {\f0\fs24 \\item The ASM is \\emph\{complete\} when (a) each concept from the S-model is being addressed by the P-model, and (b) each concept that can be derived by the P-model has been defined by the S-model;}
+\par\plain {\f0\fs24 \\item The ASM is \\emph\{consistent\} when the explicit context that is considered by the P-model is defined by concepts from the S-model; }
+\par\plain {\f0\fs24 \\item The level of coherence is considered maximal when the reciprocity is complete and consistent. The ASM performs optimal with maximal level of coherence; }
+\par\plain {\f0\fs24 \\item Formal semantics provides for the principled, single point of reference for both the S- and P-models.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item The coherence principle is a necessary condition for supporting semantics accurately: without maximal coherence of the underlying ASM\loch\af0\hich\af0\dbch\af0\uc1\u8217\'92s, the software agent cannot guarantee to maintain the validity of the reciprocity;}
+\par\plain {\f0\fs24 \\item Each reference to the reality that is made by the software agent can be made in terms of the data tokens that stem from the ASM. The border between explicit and implicit knowledge is specified by the presence of the former and absence of the latter;}
+\par\plain {\f0\fs24 \\item The scope of semantic validity \\& accuracy is to be addressed explicitly such that it can be referred to. It then facilitates the verification that the scope of the semantic validity \\& accuracy applies also in a new context;}
+\par\plain {\f0\fs24 \\item Reuse of data or data processing implies reuse of the ASM. The granularity of the reuse is therefore directed by the atomicity of the ASM. Maximal coherence improves the quality of data and code reuse;}
+\par\plain {\f0\fs24 \\item An ASM provides by its nature for a particular but consistent perspective on reality; }
+\par\plain {\f0\fs24 \\item Without adherence to this principle, the software agent cannot act as consistent semantic vehicle, depriving users the ability to perform the same semeiosis.}
+\par\plain {\f0\fs24 \\end\{enumerate\}\\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:language-appropriateness\}\{\\bfseries Language appropriateness principle:\}\\quad Modelling the semantics of an application demands an explicit choice on modelling language based on the appropriateness of its underlying ontological commitment for the domain of application.\\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] (Semantic) accuracy, Reusability, Consistency;}
+\par\plain {\f0\fs24 \\end\{description\}}
+\par\plain {\f0\fs24 \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item Any representation of semantics will carry an ontological commitment on account of the modelling language;}
+\par\plain {\f0\fs24 \\item An ontological commitment enforces a mould on the expressiveness and, hence, semantic distinctions that are presupposed by your modelling language;}
+\par\plain {\f0\fs24 \\item Trueness emerges as the subsequent application of the \\emph\{adequacy\} of the abstraction from reality and the \\emph\{correctness\} with which the conceptualisation is represented; }
+\par\plain {\f0\fs24 \\item The correctness of the representation of the conceptualisation improves by minimising the construct issues that occur in the modelling language;}
+\par\plain {\f0\fs24 \\item Construct issues are a direct result of representing a concept with a language element that is not suited or not even present to express that concept. Unable to correctly express a concept is a direct consequence of the inadequacy of the underlying ontological commitment;}
+\par\plain {\f0\fs24 \\item Ignoring the ontological commitment of the modelling language defies the purpose of the semantic model, which is to represent reality as faithful as possible.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item The more distinctions the ontological commitment allows for, the higher the semantic accuracy with which the ASM can refer to the DoI;}
+\par\plain {\f0\fs24 \\item The more distinctions the ontological commitment allows for, the higher its computational complexity which might even turn into undecidability;}
+\par\plain {\f0\fs24 \\item The suitability\\footnote\{Suitability is defined by \\cite\{VanZeist1996\} as \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93Attribute of software that bears on the presence and appropriateness of a set of functions for specified tasks\u8221\'94.\} of the agent to act as semantic vehicle between the involved humans is proportional to the domain appropriateness of the modelling language;}
+\par\plain {\f0\fs24 \\item The re-usability\\footnote\{Re-usability is defined by \\cite\{VanZeist1996\} as \loch\af0\hich\af0\dbch\af0\uc1\u8220\'93Attributes of software that bear on its potential for complete or partial reuse in another software product\u8221\'94.\} of the ASM is more dependent upon the ontological commitment of the modelling language than what actually has been expressed by the model: adapting the latter has far less consequences for the agent\u8217\'92s semantics than adapting the former.}
+\par\plain {\f0\fs24 \\end\{enumerate\}\\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:domain-faithfulness\}\{\\bfseries Domain faithfulness principle:\}\\quad The faithfulness with which the Domain Model refers to the DoA demands the use of backward looking models that contain theories as allowed by the grammar of the modelling language, and apply type mode and ontological mode of modelling. \\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] Functionality, Maintainability, Reliability, (Semantic) Accuracy;}
+\par\plain {\f0\fs24 \\end\{description\}}
+\par\plain {\f0\fs24 \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item A software agent cannot act effectively nor validly without a model that faithfully refers the DoA; }
+\par\plain {\f0\fs24 \\item The faithfulness of the model is dependent on its correct interpretation in the DoI;}
+\par\plain {\f0\fs24 \\item System models cannot take the DoA as their explicit source of truth.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item applies an interpretation function to the DoI that finds the source of truth in the reality of the DoA; }
+\par\plain {\f0\fs24 \\item applies descriptive typing as opposed to nominal typing; }
+\par\plain {\f0\fs24 \\item applies the logical open world assumptions, leaving unknown facts unknown;}
+\par\plain {\f0\fs24 \\item requires additional constraints and rules, viz. process tokens, to compensate for the inherent limitations of the interpretation function. }
+\par\plain {\f0\fs24 \\end\{enumerate\}\\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:semantic-grounding\}\{\\bfseries Semantic grounding principle:\}\\quad All models that are part of the System Model and refer to the DoA, are grounded in the Domain Model. \\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Business, Data, Application;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] Functionality, Maintainability, Reliability;}
+\par\plain {\f0\fs24 \\end\{description\}}
+\par\plain {\f0\fs24 \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item The Domain Model consolidates the semantic concern of the software agent; }
+\par\plain {\f0\fs24 \\item Following the principle of separation of concerns, no other model should address the semantic concern but the Domain Model;}
+\par\plain {\f0\fs24 \\item Model grounding (\\cref\{def:model-grounding\}) enforces the required separation of concerns between the Domain Model and the models from the System Model.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item Every model from the System Model neither introduces any new meaning, semantic or pragmatic alike, nor maintains such meaning, by introducing classification, specialisation, or a transitive instantiation (i.e., from the meta-modelling point of view);}
+\par\plain {\f0\fs24 \\item Each token from the System Model that refers to the DoA is semantically grounded in the Domain Model.}
+\par\plain {\f0\fs24 \\end\{enumerate\}\\\\}
+\par\plain {\f0\fs24 %}
+\par\plain {\f0\fs24 \\begin\{mmdp\}\\label\{dp:three-faceted-services\}\{\\bfseries 3-faceted services principle:\}\\quad The Domain model provides services that address its database facet, domain knowledge facet and generic knowledge facet.\\end\{mmdp\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{description\}[labelwidth=3.7cm,leftmargin=3.7cm+1ex,nosep,topsep=2ex,labelsep=1ex,font=\\bfseries]}
+\par\plain {\f0\fs24 \\item[Type of information:] Data, Application;}
+\par\plain {\f0\fs24 \\item[Quality attributes:] Suitability, Accuracy; Understandability, Explicitness; Analysability, Changeability, Reusability;}
+\par\plain {\f0\fs24 \\end\{description\}}
+\par\plain {\f0\fs24 \\\\}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=6pt, nosep]}
+\par\plain {\f0\fs24 \\item The Data Model represents the actual state of affairs, viz. data that reflects the state of the germane entities in the DoA; }
+\par\plain {\f0\fs24 \\item The Data Model implements the domain knowledge as rules and constraints that apply in the DoA;}
+\par\plain {\f0\fs24 \\item The Data Model is build on top of logical foundations that apply for each domain.}
+\par\plain {\f0\fs24 \\end\{enumerate\}}
+\par\plain {\f0\fs24 &}
+\par\plain {\f0\fs24 \\begin\{enumerate\}[left=10pt, nosep]}
+\par\plain {\f0\fs24 \\item CRUD services are the principled interface to access the current state of affairs in the DoA;}
+\par\plain {\f0\fs24 \\item Due to the inference capabilities, the relationship between the timing of inference and the execution of CRUD services, notably the create, update and delete services, needs to be specified; }
+\par\plain {\f0\fs24 \\item Competency questions are the principled interface to access and assess the domain knowledge and state of affairs in the domain of application;}
+\par\plain {\f0\fs24 \\item Particular choices for its logical foundation will influence the domain agnostic service capabilities;}
+\par\plain {\f0\fs24 \\item The interface of the Domain Model is the prime location to consider the border between background (implicit) and foreground (explicit) knowledge. }
+\par\plain {\f0\fs24 \\end\{enumerate\}\\\\}
+\par\plain {\f0\fs24 \\bottomrule}
+\par\plain {\f0\fs24 \\end\{xltabular\}}
+\par\pard\plain \ltrch\loch \f0\fs24
+\par\plain {\f0\fs24 %        \\captionof\{table\}\{Table caption\}% Add 'table' caption}
+\par\plain {\f0\fs24     \\end\{landscape\}}
+\par\plain {\f0\fs24     \\clearpage% Flush page}
+\par\plain {\f0\fs24 \}}
+\par\pard\plain \ltrch\loch \f0\fs24\b0\i0}

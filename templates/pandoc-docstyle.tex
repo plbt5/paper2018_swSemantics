@@ -61,6 +61,10 @@
  	
 \usepackage{mdframed}
 
+% Rotating tables to landscape
+\usepackage{pdflscape}
+\usepackage{afterpage}
+
 %% Figures and table placement		% Sourced from http://tug.ctan.org/tex-archive/info/epslatex/english/epslatex.pdf page 55
 \usepackage{flafter}				% Ensure that the figures/tables appear after its figure/table environment definition in the text
 
@@ -175,11 +179,11 @@
 %%%%% Theorems Definitions %%%%%%
 \theoremstyle{definition}
 \theoremstyle{break}		% The header for all theorems are followed by a newline
-% Examples 					-- are numbered by chapter, and carry an asterisk as closing symbol
+% Examples 				-- are numbered by chapter, and carry an asterisk as closing symbol
 \theoremsymbol{\ensuremath{_\Box}}
 \newtheorem{mmexmp}{Example}[chapter]
 %\newreptheorem{mmexmp}{Example (cont'd)}
-% Theses   					-- have continuous numbering scheme, and still close with the asterisk
+% Theses   				-- have continuous numbering scheme, and still close with the asterisk
 \newtheorem{Thesis}{Thesis}
 % Research Questions 		-- are enclosed with horizontal lines, and probably (?) close with the asterisk
 \theoremprework{\hrule}
@@ -189,18 +193,20 @@
 %\theoremheaderfont{\scshape}
 \newtheorem{mmasmptn}{Assumption}[chapter]
 \newtheorem{mmh}{Heuristic}[chapter]
-% Definitions & theorems	-- are numbered by chapter, header in bold font, and carry a black square as closing symbol
+% Definitions & theorems		-- are numbered by chapter, header in bold font, and carry a black square as closing symbol
 \theoremheaderfont{\normalfont\bfseries}
 \theoremsymbol{\ensuremath{_\blacksquare}}
 \theorembodyfont{\slshape}
 \newtheorem{mmdef}{Definition}[chapter]
 \newtheorem{mmtrm}{Theorem}[chapter]
-% Design Principles, proofs	-- are numbered by chapter, and carry an open diamond as closing symbol
+% Proofs				-- are numbered by chapter, and carry an open diamond as closing symbol
 \theoremsymbol{\ensuremath{_\diamond}}
-\newtheorem{mmdp}{DP}
 \newtheorem{mmprf}{Proof}[chapter]
-% Remarks to tables, figures, whatever -- restart numbering at sections, no closing symbol
+% Design Principles			-- are numbered continuously, without closing symbol, header not followed by newline
+\theoremstyle{}		% The header for all theorems are followed by a newline
 \theoremsymbol{}			% no symbol
+\newtheorem{mmdp}{DP}
+% Remarks to tables, figures, whatever -- restart numbering at sections, no closing symbol
 \theorembodyfont{\upshape}	% no slanted or italics
 \newtheorem{mmrmk}{Remark}[subsection]	% theorem counter resets every \subsection
 \renewcommand{\themmrmk}{(\arabic{mmrmk})}	% Remove subsection from theorem counter representation
